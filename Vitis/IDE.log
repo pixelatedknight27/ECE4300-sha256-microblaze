@@ -1,0 +1,927 @@
+18:49:20 DEBUG : Logs will be stored at 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/IDE.log'.
+18:49:23 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\maxgr\Projects\Classes\ECE4300\ECE4300-sha256-microblaze\Vitis\temp_xsdb_launch_script.tcl
+18:49:23 INFO  : Registering command handlers for Vitis TCF services
+18:49:24 INFO  : Platform repository initialization has completed.
+18:49:25 INFO  : XSCT server has started successfully.
+18:49:25 INFO  : Successfully done setting XSCT server connection channel  
+18:49:26 INFO  : plnx-install-location is set to ''
+18:49:26 INFO  : Successfully done setting workspace for the tool. 
+18:49:26 INFO  : Successfully done query RDI_DATADIR 
+18:49:50 INFO  : Result from executing command 'getProjects': sha256_test_wrapper
+18:49:50 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+18:49:51 WARN  : An unexpected exception occurred in the module 'platform project logging'
+18:49:51 INFO  : Platform 'sha256_test_wrapper' is added to custom repositories.
+18:49:53 INFO  : Platform 'sha256_test_wrapper' is added to custom repositories.
+18:50:04 INFO  : Checking for BSP changes to sync application flags for project 'sha256_test'...
+18:50:04 INFO  : Result from executing command 'getProjects': RemoteSystemsTempFiles;sha256_test;sha256_test_system;sha256_test_wrapper
+18:50:04 WARN  : Failed to closehw "C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa"
+Reason: C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa is not available in the current workspace
+use 'getprojects' command to see list of available projects in current workspace
+18:50:04 INFO  : Result from executing command 'getProjects': RemoteSystemsTempFiles;sha256_test;sha256_test_system;sha256_test_wrapper
+18:50:04 ERROR : Failed to openhw "C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa"
+Reason: C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa is not available in the current workspace
+use 'getprojects' command to see list of available projects in current workspace
+18:50:04 ERROR : Failed to update application flags from BSP for 'sha256_test'. Reason: null
+java.lang.NullPointerException: null
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.<init>(SDxSwPlatform.java:305) ~[com.xilinx.sdx.sw_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.create(SDxSwPlatform.java:214) ~[com.xilinx.sdx.sw_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdx.sdk.core.util.SdkPlatformHelper.getSwPlatform(SdkPlatformHelper.java:64) ~[com.xilinx.sdx.sdk.core_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.getSwPlatform(SdkMakefileGenerationListener.java:160) ~[com.xilinx.sdx.sdk.core_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.syncAppFlags(SdkMakefileGenerationListener.java:78) [com.xilinx.sdx.sdk.core_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.preMakefileGeneration(SdkMakefileGenerationListener.java:48) [com.xilinx.sdx.sdk.core_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.notifyPreMakefileGenerationListeners(XilinxGnuMakefileGenerator.java:91) [com.xilinx.sdk.managedbuilder_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.regenerateMakefiles(XilinxGnuMakefileGenerator.java:75) [com.xilinx.sdk.managedbuilder_1.0.0.202310091710.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.11.0.v20200206-0817.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.11.0.v20200206-0817.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291) [org.eclipse.ui.ide_3.17.0.v20200217-1511.jar:?]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.700.v20200106-1020.jar:?]
+18:52:22 INFO  : Result from executing command 'getProjects': sha256_test_wrapper
+18:52:22 INFO  : Result from executing command 'getPlatforms': sha256_test_wrapper|C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/sha256_test_wrapper.xpfm;xilinx_zcu102_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+18:52:28 INFO  : Checking for BSP changes to sync application flags for project 'sha256_test'...
+18:52:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:52:48 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292BCFFDAA' is selected.
+18:52:48 INFO  : 'jtag frequency' command is executed.
+18:52:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}' command is executed.
+18:52:50 INFO  : Device configured successfully with "C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test/_ide/bitstream/sha256_test_wrapper.bit"
+18:52:50 INFO  : Context for processor 'microblaze_0' is selected.
+18:52:50 INFO  : Hardware design and registers information is loaded from 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa'.
+18:52:50 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:52:51 INFO  : Context for processor 'microblaze_0' is selected.
+18:52:51 INFO  : System reset is completed.
+18:52:54 INFO  : 'after 3000' command is executed.
+18:52:54 INFO  : Context for processor 'microblaze_0' is selected.
+18:52:54 INFO  : The application 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test/Debug/sha256_test.elf' is downloaded to processor 'microblaze_0'.
+18:52:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}
+fpga -file C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test/_ide/bitstream/sha256_test_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test/Debug/sha256_test.elf
+----------------End of Script----------------
+
+18:52:54 INFO  : Context for processor 'microblaze_0' is selected.
+18:52:54 INFO  : 'con' command is executed.
+18:52:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:52:54 INFO  : Launch script is exported to file 'C:\Users\maxgr\Projects\Classes\ECE4300\ECE4300-sha256-microblaze\Vitis\sha256_test_system\_ide\scripts\debugger_sha256_test-default.tcl'
+18:54:21 INFO  : Checking for BSP changes to sync application flags for project 'sha256_test'...
+18:54:28 INFO  : Disconnected from the channel tcfchan#3.
+18:54:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:54:29 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292BCFFDAA' is selected.
+18:54:29 INFO  : 'jtag frequency' command is executed.
+18:54:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}' command is executed.
+18:54:31 INFO  : Device configured successfully with "C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test/_ide/bitstream/sha256_test_wrapper.bit"
+18:54:31 INFO  : Context for processor 'microblaze_0' is selected.
+18:54:31 INFO  : Hardware design and registers information is loaded from 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa'.
+18:54:31 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:54:31 INFO  : Context for processor 'microblaze_0' is selected.
+18:54:31 INFO  : System reset is completed.
+18:54:34 INFO  : 'after 3000' command is executed.
+18:54:34 INFO  : Context for processor 'microblaze_0' is selected.
+18:54:34 INFO  : The application 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test/Debug/sha256_test.elf' is downloaded to processor 'microblaze_0'.
+18:54:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}
+fpga -file C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test/_ide/bitstream/sha256_test_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test/Debug/sha256_test.elf
+----------------End of Script----------------
+
+18:54:34 INFO  : Context for processor 'microblaze_0' is selected.
+18:54:34 INFO  : 'con' command is executed.
+18:54:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:54:34 INFO  : Launch script is exported to file 'C:\Users\maxgr\Projects\Classes\ECE4300\ECE4300-sha256-microblaze\Vitis\sha256_test_system\_ide\scripts\debugger_sha256_test-default.tcl'
+15:51:47 INFO  : Checking for BSP changes to sync application flags for project 'sha256_test'...
+15:53:02 INFO  : Disconnected from the channel tcfchan#4.
+15:53:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:53:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+15:53:12 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+15:53:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:53:18 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292BCFFDAA' is selected.
+15:53:18 INFO  : 'jtag frequency' command is executed.
+15:53:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}' command is executed.
+15:53:20 INFO  : Device configured successfully with "C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test/_ide/bitstream/sha256_test_wrapper.bit"
+15:53:20 INFO  : Context for processor 'microblaze_0' is selected.
+15:53:20 INFO  : Hardware design and registers information is loaded from 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa'.
+15:53:20 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:53:20 INFO  : Context for processor 'microblaze_0' is selected.
+15:53:20 INFO  : System reset is completed.
+15:53:23 INFO  : 'after 3000' command is executed.
+15:53:23 INFO  : Context for processor 'microblaze_0' is selected.
+15:53:23 INFO  : The application 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test/Debug/sha256_test.elf' is downloaded to processor 'microblaze_0'.
+15:53:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}
+fpga -file C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test/_ide/bitstream/sha256_test_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test/Debug/sha256_test.elf
+----------------End of Script----------------
+
+15:53:23 INFO  : Context for processor 'microblaze_0' is selected.
+15:53:23 INFO  : 'con' command is executed.
+15:53:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:53:23 INFO  : Launch script is exported to file 'C:\Users\maxgr\Projects\Classes\ECE4300\ECE4300-sha256-microblaze\Vitis\sha256_test_system\_ide\scripts\debugger_sha256_test-default.tcl'
+15:54:44 INFO  : Disconnected from the channel tcfchan#5.
+15:54:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:54:45 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292BCFFDAA' is selected.
+15:54:45 INFO  : 'jtag frequency' command is executed.
+15:54:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}' command is executed.
+15:54:48 INFO  : Device configured successfully with "C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test/_ide/bitstream/sha256_test_wrapper.bit"
+15:54:48 INFO  : Context for processor 'microblaze_0' is selected.
+15:54:48 INFO  : Hardware design and registers information is loaded from 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa'.
+15:54:48 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:54:48 INFO  : Context for processor 'microblaze_0' is selected.
+15:54:48 INFO  : System reset is completed.
+15:54:51 INFO  : 'after 3000' command is executed.
+15:54:51 INFO  : Context for processor 'microblaze_0' is selected.
+15:54:51 INFO  : The application 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test/Debug/sha256_test.elf' is downloaded to processor 'microblaze_0'.
+15:54:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}
+fpga -file C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test/_ide/bitstream/sha256_test_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test/Debug/sha256_test.elf
+----------------End of Script----------------
+
+15:54:51 INFO  : Context for processor 'microblaze_0' is selected.
+15:54:51 INFO  : 'con' command is executed.
+15:54:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:54:51 INFO  : Launch script is exported to file 'C:\Users\maxgr\Projects\Classes\ECE4300\ECE4300-sha256-microblaze\Vitis\sha256_test_system\_ide\scripts\debugger_sha256_test-default.tcl'
+17:53:35 INFO  : Checking for BSP changes to sync application flags for project 'sha256_test'...
+17:54:00 INFO  : Checking for BSP changes to sync application flags for project 'sha256_test'...
+17:54:08 INFO  : Checking for BSP changes to sync application flags for project 'sha256_test'...
+17:54:34 INFO  : Checking for BSP changes to sync application flags for project 'sha256_test'...
+17:54:58 INFO  : Checking for BSP changes to sync application flags for project 'sha256_test'...
+17:55:25 INFO  : Checking for BSP changes to sync application flags for project 'sha256_test'...
+17:56:04 INFO  : Checking for BSP changes to sync application flags for project 'sha256_test'...
+17:56:08 INFO  : Disconnected from the channel tcfchan#6.
+17:56:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:56:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+17:56:18 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+17:56:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:56:29 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292BCFFDAA' is selected.
+17:56:29 INFO  : 'jtag frequency' command is executed.
+17:56:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}' command is executed.
+17:56:32 INFO  : Device configured successfully with "C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test/_ide/bitstream/sha256_test_wrapper.bit"
+17:56:32 INFO  : Context for processor 'microblaze_0' is selected.
+17:56:32 INFO  : Hardware design and registers information is loaded from 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa'.
+17:56:32 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:56:32 INFO  : Context for processor 'microblaze_0' is selected.
+17:56:32 INFO  : System reset is completed.
+17:56:35 INFO  : 'after 3000' command is executed.
+17:56:35 INFO  : Context for processor 'microblaze_0' is selected.
+17:56:35 INFO  : The application 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test/Debug/sha256_test.elf' is downloaded to processor 'microblaze_0'.
+17:56:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}
+fpga -file C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test/_ide/bitstream/sha256_test_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test/Debug/sha256_test.elf
+----------------End of Script----------------
+
+17:56:35 INFO  : Context for processor 'microblaze_0' is selected.
+17:56:35 INFO  : 'con' command is executed.
+17:56:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:56:35 INFO  : Launch script is exported to file 'C:\Users\maxgr\Projects\Classes\ECE4300\ECE4300-sha256-microblaze\Vitis\sha256_test_system\_ide\scripts\debugger_sha256_test-default.tcl'
+17:57:07 INFO  : Disconnected from the channel tcfchan#7.
+17:57:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:57:08 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292BCFFDAA' is selected.
+17:57:08 INFO  : 'jtag frequency' command is executed.
+17:57:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}' command is executed.
+17:57:10 INFO  : Device configured successfully with "C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test/_ide/bitstream/sha256_test_wrapper.bit"
+17:57:11 INFO  : Context for processor 'microblaze_0' is selected.
+17:57:11 INFO  : Hardware design and registers information is loaded from 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa'.
+17:57:11 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:57:11 INFO  : Context for processor 'microblaze_0' is selected.
+17:57:11 INFO  : System reset is completed.
+17:57:14 INFO  : 'after 3000' command is executed.
+17:57:14 INFO  : Context for processor 'microblaze_0' is selected.
+17:57:14 INFO  : The application 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test/Debug/sha256_test.elf' is downloaded to processor 'microblaze_0'.
+17:57:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}
+fpga -file C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test/_ide/bitstream/sha256_test_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test/Debug/sha256_test.elf
+----------------End of Script----------------
+
+17:57:14 INFO  : Context for processor 'microblaze_0' is selected.
+17:57:14 INFO  : 'con' command is executed.
+17:57:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:57:14 INFO  : Launch script is exported to file 'C:\Users\maxgr\Projects\Classes\ECE4300\ECE4300-sha256-microblaze\Vitis\sha256_test_system\_ide\scripts\debugger_sha256_test-default.tcl'
+18:00:43 INFO  : Checking for BSP changes to sync application flags for project 'sha256_test'...
+18:01:45 INFO  : Checking for BSP changes to sync application flags for project 'sha256_test'...
+18:03:45 INFO  : Checking for BSP changes to sync application flags for project 'sha256_test'...
+18:04:05 INFO  : Checking for BSP changes to sync application flags for project 'sha256_test'...
+18:04:26 INFO  : Checking for BSP changes to sync application flags for project 'sha256_test'...
+18:04:39 INFO  : Checking for BSP changes to sync application flags for project 'sha256_test'...
+18:05:19 INFO  : Checking for BSP changes to sync application flags for project 'sha256_test'...
+18:05:34 INFO  : Checking for BSP changes to sync application flags for project 'sha256_test'...
+18:11:17 INFO  : Checking for BSP changes to sync application flags for project 'sha256_test'...
+18:26:30 INFO  : Hardware specification for platform project 'sha256_test_wrapper' is updated.
+18:27:58 INFO  : Hardware specification for platform project 'sha256_test_wrapper' is updated.
+18:30:39 INFO  : Disconnected from the channel tcfchan#8.
+18:31:11 DEBUG : Logs will be stored at 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/IDE.log'.
+18:31:21 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\maxgr\Projects\Classes\ECE4300\ECE4300-sha256-microblaze\Vitis\temp_xsdb_launch_script.tcl
+18:31:21 INFO  : Registering command handlers for Vitis TCF services
+18:31:22 INFO  : Platform repository initialization has completed.
+18:31:23 INFO  : XSCT server has started successfully.
+18:31:23 INFO  : Successfully done setting XSCT server connection channel  
+18:31:23 INFO  : plnx-install-location is set to ''
+18:31:27 INFO  : Successfully done setting workspace for the tool. 
+18:31:27 INFO  : Successfully done query RDI_DATADIR 
+18:32:25 INFO  : Result from executing command 'getProjects': sha256_test_wrapper
+18:32:25 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+18:32:25 WARN  : An unexpected exception occurred in the module 'platform project logging'
+18:32:26 INFO  : Platform 'sha256_test_wrapper' is added to custom repositories.
+18:32:28 INFO  : Platform 'sha256_test_wrapper' is added to custom repositories.
+20:21:19 INFO  : Checking for BSP changes to sync application flags for project 'sha_256_test_app'...
+20:21:19 INFO  : Result from executing command 'getProjects': RemoteSystemsTempFiles;sha256_test_wrapper;sha_256_test_app;sha_256_test_app_system
+20:21:19 WARN  : Failed to closehw "C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa"
+Reason: C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa is not available in the current workspace
+use 'getprojects' command to see list of available projects in current workspace
+20:21:19 INFO  : Result from executing command 'getProjects': RemoteSystemsTempFiles;sha256_test_wrapper;sha_256_test_app;sha_256_test_app_system
+20:21:19 ERROR : Failed to openhw "C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa"
+Reason: C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa is not available in the current workspace
+use 'getprojects' command to see list of available projects in current workspace
+20:21:19 ERROR : Failed to update application flags from BSP for 'sha_256_test_app'. Reason: null
+java.lang.NullPointerException: null
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.<init>(SDxSwPlatform.java:305) ~[com.xilinx.sdx.sw_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.create(SDxSwPlatform.java:214) ~[com.xilinx.sdx.sw_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdx.sdk.core.util.SdkPlatformHelper.getSwPlatform(SdkPlatformHelper.java:64) ~[com.xilinx.sdx.sdk.core_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.getSwPlatform(SdkMakefileGenerationListener.java:160) ~[com.xilinx.sdx.sdk.core_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.syncAppFlags(SdkMakefileGenerationListener.java:78) [com.xilinx.sdx.sdk.core_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.preMakefileGeneration(SdkMakefileGenerationListener.java:48) [com.xilinx.sdx.sdk.core_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.notifyPreMakefileGenerationListeners(XilinxGnuMakefileGenerator.java:91) [com.xilinx.sdk.managedbuilder_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.regenerateMakefiles(XilinxGnuMakefileGenerator.java:75) [com.xilinx.sdk.managedbuilder_1.0.0.202310091710.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.11.0.v20200206-0817.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.11.0.v20200206-0817.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291) [org.eclipse.ui.ide_3.17.0.v20200217-1511.jar:?]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.700.v20200106-1020.jar:?]
+20:21:28 INFO  : Checking for BSP changes to sync application flags for project 'sha_256_test_app'...
+20:21:28 INFO  : Result from executing command 'getProjects': RemoteSystemsTempFiles;sha256_test_wrapper;sha_256_test_app;sha_256_test_app_system
+20:21:28 ERROR : Failed to openhw "C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa"
+Reason: C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa is not available in the current workspace
+use 'getprojects' command to see list of available projects in current workspace
+20:21:28 ERROR : Failed to update application flags from BSP for 'sha_256_test_app'. Reason: null
+java.lang.NullPointerException: null
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.<init>(SDxSwPlatform.java:305) ~[com.xilinx.sdx.sw_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.create(SDxSwPlatform.java:214) ~[com.xilinx.sdx.sw_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdx.sdk.core.util.SdkPlatformHelper.getSwPlatform(SdkPlatformHelper.java:64) ~[com.xilinx.sdx.sdk.core_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.getSwPlatform(SdkMakefileGenerationListener.java:160) ~[com.xilinx.sdx.sdk.core_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.syncAppFlags(SdkMakefileGenerationListener.java:78) [com.xilinx.sdx.sdk.core_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.preMakefileGeneration(SdkMakefileGenerationListener.java:48) [com.xilinx.sdx.sdk.core_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.notifyPreMakefileGenerationListeners(XilinxGnuMakefileGenerator.java:91) [com.xilinx.sdk.managedbuilder_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.generateMakefiles(XilinxGnuMakefileGenerator.java:40) [com.xilinx.sdk.managedbuilder_1.0.0.202310091710.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1008) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:510) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.11.0.v20200206-0817.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.11.0.v20200206-0817.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291) [org.eclipse.ui.ide_3.17.0.v20200217-1511.jar:?]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.700.v20200106-1020.jar:?]
+20:21:49 INFO  : Checking for BSP changes to sync application flags for project 'sha_256_test_app'...
+20:21:49 INFO  : Result from executing command 'getProjects': RemoteSystemsTempFiles;sha256_test_wrapper;sha_256_test_app;sha_256_test_app_system
+20:21:49 ERROR : Failed to openhw "C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa"
+Reason: C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa is not available in the current workspace
+use 'getprojects' command to see list of available projects in current workspace
+20:21:49 ERROR : Failed to update application flags from BSP for 'sha_256_test_app'. Reason: null
+java.lang.NullPointerException: null
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.<init>(SDxSwPlatform.java:305) ~[com.xilinx.sdx.sw_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.create(SDxSwPlatform.java:214) ~[com.xilinx.sdx.sw_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdx.sdk.core.util.SdkPlatformHelper.getSwPlatform(SdkPlatformHelper.java:64) ~[com.xilinx.sdx.sdk.core_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.getSwPlatform(SdkMakefileGenerationListener.java:160) ~[com.xilinx.sdx.sdk.core_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.syncAppFlags(SdkMakefileGenerationListener.java:78) [com.xilinx.sdx.sdk.core_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.preMakefileGeneration(SdkMakefileGenerationListener.java:48) [com.xilinx.sdx.sdk.core_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.notifyPreMakefileGenerationListeners(XilinxGnuMakefileGenerator.java:91) [com.xilinx.sdk.managedbuilder_1.0.0.202310091710.jar:?]
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.generateMakefiles(XilinxGnuMakefileGenerator.java:40) [com.xilinx.sdk.managedbuilder_1.0.0.202310091710.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1008) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:510) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.11.0.v20200206-0817.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.11.0.v20200206-0817.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291) [org.eclipse.ui.ide_3.17.0.v20200217-1511.jar:?]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.700.v20200106-1020.jar:?]
+20:23:27 INFO  : Result from executing command 'getProjects': sha256_test_wrapper
+20:23:27 INFO  : Result from executing command 'getPlatforms': sha256_test_wrapper|C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/sha256_test_wrapper.xpfm;xilinx_zcu102_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+20:23:27 INFO  : Checking for BSP changes to sync application flags for project 'sha_256_test_app'...
+20:24:30 INFO  : Checking for BSP changes to sync application flags for project 'sha_256_test_app'...
+20:24:38 INFO  : Checking for BSP changes to sync application flags for project 'sha_256_test_app'...
+20:24:51 INFO  : Checking for BSP changes to sync application flags for project 'sha_256_test_app'...
+20:25:10 INFO  : Checking for BSP changes to sync application flags for project 'sha_256_test_app'...
+20:25:30 INFO  : Checking for BSP changes to sync application flags for project 'sha_256_test_app'...
+20:31:28 INFO  : Checking for BSP changes to sync application flags for project 'sha_256_test_app'...
+20:31:54 INFO  : Checking for BSP changes to sync application flags for project 'sha_256_test_app'...
+20:32:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:32:15 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292BCFFDAA' is selected.
+20:32:15 INFO  : 'jtag frequency' command is executed.
+20:32:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}' command is executed.
+20:32:17 INFO  : Device configured successfully with "C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/_ide/bitstream/sha256_test_wrapper.bit"
+20:32:17 INFO  : Context for processor 'microblaze_0' is selected.
+20:32:17 INFO  : Hardware design and registers information is loaded from 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa'.
+20:32:17 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:32:17 INFO  : Context for processor 'microblaze_0' is selected.
+20:32:17 INFO  : System reset is completed.
+20:32:20 INFO  : 'after 3000' command is executed.
+20:32:20 INFO  : Context for processor 'microblaze_0' is selected.
+20:32:20 INFO  : The application 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/Debug/sha_256_test_app.elf' is downloaded to processor 'microblaze_0'.
+20:32:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}
+fpga -file C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/_ide/bitstream/sha256_test_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/Debug/sha_256_test_app.elf
+----------------End of Script----------------
+
+20:32:21 INFO  : Context for processor 'microblaze_0' is selected.
+20:32:21 INFO  : 'con' command is executed.
+20:32:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:32:21 INFO  : Launch script is exported to file 'C:\Users\maxgr\Projects\Classes\ECE4300\ECE4300-sha256-microblaze\Vitis\sha_256_test_app_system\_ide\scripts\debugger_sha_256_test_app-default.tcl'
+20:34:08 INFO  : Checking for BSP changes to sync application flags for project 'sha_256_test_app'...
+20:34:19 INFO  : Disconnected from the channel tcfchan#6.
+20:34:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:34:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+20:34:29 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+20:34:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:34:34 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292BCFFDAA' is selected.
+20:34:34 INFO  : 'jtag frequency' command is executed.
+20:34:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}' command is executed.
+20:34:36 INFO  : Device configured successfully with "C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/_ide/bitstream/sha256_test_wrapper.bit"
+20:34:36 INFO  : Context for processor 'microblaze_0' is selected.
+20:34:36 INFO  : Hardware design and registers information is loaded from 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa'.
+20:34:36 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:34:36 INFO  : Context for processor 'microblaze_0' is selected.
+20:34:36 INFO  : System reset is completed.
+20:34:39 INFO  : 'after 3000' command is executed.
+20:34:39 INFO  : Context for processor 'microblaze_0' is selected.
+20:34:39 INFO  : The application 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/Debug/sha_256_test_app.elf' is downloaded to processor 'microblaze_0'.
+20:34:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}
+fpga -file C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/_ide/bitstream/sha256_test_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/Debug/sha_256_test_app.elf
+----------------End of Script----------------
+
+20:34:39 INFO  : Context for processor 'microblaze_0' is selected.
+20:34:39 INFO  : 'con' command is executed.
+20:34:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:34:39 INFO  : Launch script is exported to file 'C:\Users\maxgr\Projects\Classes\ECE4300\ECE4300-sha256-microblaze\Vitis\sha_256_test_app_system\_ide\scripts\debugger_sha_256_test_app-default.tcl'
+20:39:08 INFO  : Checking for BSP changes to sync application flags for project 'sha_256_test_app'...
+20:39:20 INFO  : Disconnected from the channel tcfchan#7.
+20:39:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:39:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+20:39:30 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+20:39:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:39:48 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292BCFFDAA' is selected.
+20:39:48 INFO  : 'jtag frequency' command is executed.
+20:39:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}' command is executed.
+20:39:50 INFO  : Device configured successfully with "C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/_ide/bitstream/sha256_test_wrapper.bit"
+20:39:50 INFO  : Context for processor 'microblaze_0' is selected.
+20:39:50 INFO  : Hardware design and registers information is loaded from 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa'.
+20:39:50 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:39:50 INFO  : Context for processor 'microblaze_0' is selected.
+20:39:50 INFO  : System reset is completed.
+20:39:53 INFO  : 'after 3000' command is executed.
+20:39:53 INFO  : Context for processor 'microblaze_0' is selected.
+20:39:53 INFO  : The application 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/Debug/sha_256_test_app.elf' is downloaded to processor 'microblaze_0'.
+20:39:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}
+fpga -file C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/_ide/bitstream/sha256_test_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/Debug/sha_256_test_app.elf
+----------------End of Script----------------
+
+20:39:53 INFO  : Context for processor 'microblaze_0' is selected.
+20:39:53 INFO  : 'con' command is executed.
+20:39:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:39:53 INFO  : Launch script is exported to file 'C:\Users\maxgr\Projects\Classes\ECE4300\ECE4300-sha256-microblaze\Vitis\sha_256_test_app_system\_ide\scripts\debugger_sha_256_test_app-default.tcl'
+20:43:09 INFO  : Result from executing command 'getProjects': sha256_test_wrapper
+20:43:09 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+20:43:36 INFO  : Disconnected from the channel tcfchan#8.
+20:43:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:43:37 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292BCFFDAA' is selected.
+20:43:37 INFO  : 'jtag frequency' command is executed.
+20:43:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}' command is executed.
+20:43:40 INFO  : Device configured successfully with "C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/_ide/bitstream/sha256_test_wrapper.bit"
+20:43:40 INFO  : Context for processor 'microblaze_0' is selected.
+20:43:40 INFO  : Hardware design and registers information is loaded from 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa'.
+20:43:40 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:43:40 INFO  : Context for processor 'microblaze_0' is selected.
+20:43:40 INFO  : System reset is completed.
+20:43:43 INFO  : 'after 3000' command is executed.
+20:43:43 INFO  : Context for processor 'microblaze_0' is selected.
+20:43:43 INFO  : The application 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/Debug/sha_256_test_app.elf' is downloaded to processor 'microblaze_0'.
+20:43:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}
+fpga -file C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/_ide/bitstream/sha256_test_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/Debug/sha_256_test_app.elf
+----------------End of Script----------------
+
+20:43:43 INFO  : Context for processor 'microblaze_0' is selected.
+20:43:43 INFO  : 'con' command is executed.
+20:43:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:43:43 INFO  : Launch script is exported to file 'C:\Users\maxgr\Projects\Classes\ECE4300\ECE4300-sha256-microblaze\Vitis\sha_256_test_app_system\_ide\scripts\debugger_sha_256_test_app-default.tcl'
+20:51:25 INFO  : Result from executing command 'getProjects': sha256_test_wrapper
+20:51:25 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+20:51:31 INFO  : Disconnected from the channel tcfchan#10.
+20:51:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:51:32 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292BCFFDAA' is selected.
+20:51:32 INFO  : 'jtag frequency' command is executed.
+20:51:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}' command is executed.
+20:51:35 INFO  : Device configured successfully with "C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/_ide/bitstream/sha256_test_wrapper.bit"
+20:51:35 INFO  : Context for processor 'microblaze_0' is selected.
+20:51:35 INFO  : Hardware design and registers information is loaded from 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa'.
+20:51:35 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:51:35 INFO  : Context for processor 'microblaze_0' is selected.
+20:51:35 INFO  : System reset is completed.
+20:51:38 INFO  : 'after 3000' command is executed.
+20:51:38 INFO  : Context for processor 'microblaze_0' is selected.
+20:51:38 INFO  : The application 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/Debug/sha_256_test_app.elf' is downloaded to processor 'microblaze_0'.
+20:51:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}
+fpga -file C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/_ide/bitstream/sha256_test_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/Debug/sha_256_test_app.elf
+----------------End of Script----------------
+
+20:51:38 INFO  : Context for processor 'microblaze_0' is selected.
+20:51:38 INFO  : 'con' command is executed.
+20:51:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:51:38 INFO  : Launch script is exported to file 'C:\Users\maxgr\Projects\Classes\ECE4300\ECE4300-sha256-microblaze\Vitis\sha_256_test_app_system\_ide\scripts\debugger_sha_256_test_app-default.tcl'
+20:51:49 INFO  : Disconnected from the channel tcfchan#12.
+20:51:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:51:50 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292BCFFDAA' is selected.
+20:51:50 INFO  : 'jtag frequency' command is executed.
+20:51:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}' command is executed.
+20:51:53 INFO  : Device configured successfully with "C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/_ide/bitstream/sha256_test_wrapper.bit"
+20:51:53 INFO  : Context for processor 'microblaze_0' is selected.
+20:51:53 INFO  : Hardware design and registers information is loaded from 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa'.
+20:51:53 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:51:53 INFO  : Context for processor 'microblaze_0' is selected.
+20:51:53 INFO  : System reset is completed.
+20:51:56 INFO  : 'after 3000' command is executed.
+20:51:56 INFO  : Context for processor 'microblaze_0' is selected.
+20:51:56 INFO  : The application 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/Debug/sha_256_test_app.elf' is downloaded to processor 'microblaze_0'.
+20:51:56 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}
+fpga -file C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/_ide/bitstream/sha256_test_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/Debug/sha_256_test_app.elf
+----------------End of Script----------------
+
+20:51:56 INFO  : Context for processor 'microblaze_0' is selected.
+20:51:56 INFO  : 'con' command is executed.
+20:51:56 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:51:56 INFO  : Launch script is exported to file 'C:\Users\maxgr\Projects\Classes\ECE4300\ECE4300-sha256-microblaze\Vitis\sha_256_test_app_system\_ide\scripts\debugger_sha_256_test_app-default.tcl'
+20:59:48 INFO  : Checking for BSP changes to sync application flags for project 'sha_256_test_app'...
+20:59:52 INFO  : Disconnected from the channel tcfchan#13.
+20:59:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:00:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+21:00:02 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+21:00:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:00:05 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292BCFFDAA' is selected.
+21:00:05 INFO  : 'jtag frequency' command is executed.
+21:00:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}' command is executed.
+21:00:07 INFO  : Device configured successfully with "C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/_ide/bitstream/sha256_test_wrapper.bit"
+21:00:08 INFO  : Context for processor 'microblaze_0' is selected.
+21:00:08 INFO  : Hardware design and registers information is loaded from 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa'.
+21:00:08 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:00:08 INFO  : Context for processor 'microblaze_0' is selected.
+21:00:08 INFO  : System reset is completed.
+21:00:11 INFO  : 'after 3000' command is executed.
+21:00:11 INFO  : Context for processor 'microblaze_0' is selected.
+21:00:11 INFO  : The application 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/Debug/sha_256_test_app.elf' is downloaded to processor 'microblaze_0'.
+21:00:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}
+fpga -file C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/_ide/bitstream/sha256_test_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/Debug/sha_256_test_app.elf
+----------------End of Script----------------
+
+21:00:11 INFO  : Context for processor 'microblaze_0' is selected.
+21:00:11 INFO  : 'con' command is executed.
+21:00:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:00:11 INFO  : Launch script is exported to file 'C:\Users\maxgr\Projects\Classes\ECE4300\ECE4300-sha256-microblaze\Vitis\sha_256_test_app_system\_ide\scripts\debugger_sha_256_test_app-default.tcl'
+21:23:31 INFO  : Checking for BSP changes to sync application flags for project 'sha_256_test_app'...
+21:23:52 INFO  : Checking for BSP changes to sync application flags for project 'sha_256_test_app'...
+21:24:08 INFO  : Checking for BSP changes to sync application flags for project 'sha_256_test_app'...
+21:24:13 INFO  : Disconnected from the channel tcfchan#14.
+21:24:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:24:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+21:24:23 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+21:24:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:24:40 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292BCFFDAA' is selected.
+21:24:40 INFO  : 'jtag frequency' command is executed.
+21:24:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}' command is executed.
+21:24:42 INFO  : Device configured successfully with "C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/_ide/bitstream/sha256_test_wrapper.bit"
+21:24:42 INFO  : Context for processor 'microblaze_0' is selected.
+21:24:42 INFO  : Hardware design and registers information is loaded from 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa'.
+21:24:42 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:24:42 INFO  : Context for processor 'microblaze_0' is selected.
+21:24:42 INFO  : System reset is completed.
+21:24:45 INFO  : 'after 3000' command is executed.
+21:24:45 INFO  : Context for processor 'microblaze_0' is selected.
+21:24:45 INFO  : The application 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/Debug/sha_256_test_app.elf' is downloaded to processor 'microblaze_0'.
+21:24:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}
+fpga -file C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/_ide/bitstream/sha256_test_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/Debug/sha_256_test_app.elf
+----------------End of Script----------------
+
+21:24:45 INFO  : Context for processor 'microblaze_0' is selected.
+21:24:45 INFO  : 'con' command is executed.
+21:24:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:24:45 INFO  : Launch script is exported to file 'C:\Users\maxgr\Projects\Classes\ECE4300\ECE4300-sha256-microblaze\Vitis\sha_256_test_app_system\_ide\scripts\debugger_sha_256_test_app-default.tcl'
+21:28:09 INFO  : Checking for BSP changes to sync application flags for project 'sha_256_test_app'...
+21:28:15 INFO  : Disconnected from the channel tcfchan#15.
+21:28:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:28:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+21:28:25 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+21:28:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:28:42 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292BCFFDAA' is selected.
+21:28:42 INFO  : 'jtag frequency' command is executed.
+21:28:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}' command is executed.
+21:28:44 INFO  : Device configured successfully with "C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/_ide/bitstream/sha256_test_wrapper.bit"
+21:28:44 INFO  : Context for processor 'microblaze_0' is selected.
+21:28:44 INFO  : Hardware design and registers information is loaded from 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa'.
+21:28:44 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:28:44 INFO  : Context for processor 'microblaze_0' is selected.
+21:28:44 INFO  : System reset is completed.
+21:28:47 INFO  : 'after 3000' command is executed.
+21:28:47 INFO  : Context for processor 'microblaze_0' is selected.
+21:28:47 INFO  : The application 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/Debug/sha_256_test_app.elf' is downloaded to processor 'microblaze_0'.
+21:28:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}
+fpga -file C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/_ide/bitstream/sha256_test_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/Debug/sha_256_test_app.elf
+----------------End of Script----------------
+
+21:28:47 INFO  : Context for processor 'microblaze_0' is selected.
+21:28:47 INFO  : 'con' command is executed.
+21:28:47 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:28:47 INFO  : Launch script is exported to file 'C:\Users\maxgr\Projects\Classes\ECE4300\ECE4300-sha256-microblaze\Vitis\sha_256_test_app_system\_ide\scripts\debugger_sha_256_test_app-default.tcl'
+21:30:17 INFO  : Result from executing command 'getProjects': sha256_test_wrapper
+21:30:17 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+21:30:20 INFO  : Checking for BSP changes to sync application flags for project 'sha_256_test_app'...
+21:30:24 INFO  : Disconnected from the channel tcfchan#16.
+21:30:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:30:25 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292BCFFDAA' is selected.
+21:30:25 INFO  : 'jtag frequency' command is executed.
+21:30:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}' command is executed.
+21:30:28 INFO  : Device configured successfully with "C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/_ide/bitstream/sha256_test_wrapper.bit"
+21:30:28 INFO  : Context for processor 'microblaze_0' is selected.
+21:30:28 INFO  : Hardware design and registers information is loaded from 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa'.
+21:30:28 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:30:28 INFO  : Context for processor 'microblaze_0' is selected.
+21:30:28 INFO  : System reset is completed.
+21:30:31 INFO  : 'after 3000' command is executed.
+21:30:31 INFO  : Context for processor 'microblaze_0' is selected.
+21:30:31 INFO  : The application 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/Debug/sha_256_test_app.elf' is downloaded to processor 'microblaze_0'.
+21:30:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}
+fpga -file C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/_ide/bitstream/sha256_test_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/Debug/sha_256_test_app.elf
+----------------End of Script----------------
+
+21:30:31 INFO  : Context for processor 'microblaze_0' is selected.
+21:30:31 INFO  : 'con' command is executed.
+21:30:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:30:31 INFO  : Launch script is exported to file 'C:\Users\maxgr\Projects\Classes\ECE4300\ECE4300-sha256-microblaze\Vitis\sha_256_test_app_system\_ide\scripts\debugger_sha_256_test_app-default.tcl'
+21:41:15 INFO  : Disconnected from the channel tcfchan#18.
+21:41:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:41:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+21:41:25 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+21:41:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:41:28 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292BCFFDAA' is selected.
+21:41:28 INFO  : 'jtag frequency' command is executed.
+21:41:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}' command is executed.
+21:41:30 INFO  : Device configured successfully with "C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/_ide/bitstream/sha256_test_wrapper.bit"
+21:41:30 INFO  : Context for processor 'microblaze_0' is selected.
+21:41:30 INFO  : Hardware design and registers information is loaded from 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa'.
+21:41:30 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:41:30 INFO  : Context for processor 'microblaze_0' is selected.
+21:41:30 INFO  : System reset is completed.
+21:41:33 INFO  : 'after 3000' command is executed.
+21:41:33 INFO  : Context for processor 'microblaze_0' is selected.
+21:41:33 INFO  : The application 'C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/Debug/sha_256_test_app.elf' is downloaded to processor 'microblaze_0'.
+21:41:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292BCFFDAA" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292BCFFDAA-13631093-0"}
+fpga -file C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/_ide/bitstream/sha256_test_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/hw/sha256_test_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app/Debug/sha_256_test_app.elf
+----------------End of Script----------------
+
+21:41:34 INFO  : Context for processor 'microblaze_0' is selected.
+21:41:34 INFO  : 'con' command is executed.
+21:41:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:41:34 INFO  : Launch script is exported to file 'C:\Users\maxgr\Projects\Classes\ECE4300\ECE4300-sha256-microblaze\Vitis\sha_256_test_app_system\_ide\scripts\debugger_sha_256_test_app-default.tcl'
+22:14:39 INFO  : Disconnected from the channel tcfchan#19.

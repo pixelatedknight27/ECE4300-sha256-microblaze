@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="sha_256_test_app" location="C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha_256_test_app" platform="C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/sha256_test_wrapper.xpfm" platformUID="xilinx:arty-a7-100::0.0(custom)" systemProject="sha_256_test_app_system" sysConfig="sha256_test_wrapper" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="09eea81694ea1a518e8c0f600a306b10">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1531254628">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.494044238" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="peripheral_tests"/>
+</sdkproject:SdkProject>

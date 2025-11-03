@@ -1,0 +1,13 @@
+18:11:17 **** Incremental Build of configuration Debug for project sha256_test ****
+make all 
+'Building file: ../src/testperiph.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testperiph.o" -IC:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/export/sha256_test_wrapper/sw/sha256_test_wrapper/standalone_microblaze_0/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testperiph.d" -MT"src/testperiph.o" -o "src/testperiph.o" "../src/testperiph.c"
+../src/testperiph.c:37:10: fatal error: xtime_l.h: No such file or directory
+   37 | #include "xtime_l.h"
+      |          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/testperiph.o] Error 1
+
+18:11:17 Build Finished (took 260ms)
+

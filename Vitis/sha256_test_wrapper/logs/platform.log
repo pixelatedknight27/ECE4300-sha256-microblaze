@@ -1,0 +1,2048 @@
+TRACE::2025-11-02.18:32:23::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:23::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:23::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:23::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.18:32:23::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:23::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.18:32:23::SCWPlatform::Do not have an existing db opened. 
+TRACE::2025-11-02.18:32:23::SCWPlatform::Opened new HwDB with name sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:23::SCWWriter::formatted JSON is {
+	"platformName":	"sha256_test_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"sha256_test_wrapper",
+	"platHandOff":	"C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vivado/ECE4300_sha256/sha256_test_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/sha256_test_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2025-11-02.18:32:23::SCWWriter::formatted JSON is {
+	"platformName":	"sha256_test_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"sha256_test_wrapper",
+	"platHandOff":	"C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vivado/ECE4300_sha256/sha256_test_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/sha256_test_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"sha256_test_wrapper",
+	"systems":	[{
+			"systemName":	"sha256_test_wrapper",
+			"systemDesc":	"sha256_test_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"sha256_test_wrapper"
+		}]
+}
+TRACE::2025-11-02.18:32:23::SCWPlatform::Boot application domains not present, creating them
+TRACE::2025-11-02.18:32:23::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2025-11-02.18:32:23::SCWWriter::formatted JSON is {
+	"platformName":	"sha256_test_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"sha256_test_wrapper",
+	"platHandOff":	"C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vivado/ECE4300_sha256/sha256_test_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/sha256_test_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"sha256_test_wrapper",
+	"systems":	[{
+			"systemName":	"sha256_test_wrapper",
+			"systemDesc":	"sha256_test_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"sha256_test_wrapper"
+		}]
+}
+TRACE::2025-11-02.18:32:23::SCWWriter::formatted JSON is {
+	"platformName":	"sha256_test_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"sha256_test_wrapper",
+	"platHandOff":	"C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vivado/ECE4300_sha256/sha256_test_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/sha256_test_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"sha256_test_wrapper",
+	"systems":	[{
+			"systemName":	"sha256_test_wrapper",
+			"systemDesc":	"sha256_test_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"sha256_test_wrapper"
+		}]
+}
+TRACE::2025-11-02.18:32:23::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:23::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:23::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:23::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.18:32:23::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:23::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.18:32:23::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:23::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.18:32:23::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:23::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:23::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:23::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.18:32:23::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:23::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.18:32:23::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:23::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.18:32:23::SCWDomain::checking for install qemu data   : 
+TRACE::2025-11-02.18:32:23::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:23::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:23::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:23::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.18:32:23::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:23::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.18:32:23::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:23::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.18:32:23::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:23::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:23::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:23::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.18:32:23::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:23::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.18:32:23::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:23::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.18:32:23::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:23::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:23::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:23::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.18:32:23::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:23::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.18:32:23::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:23::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.18:32:23::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:23::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2025-11-02.18:32:23::SCWMssOS::No sw design opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:23::SCWMssOS::mss does not exists at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:23::SCWMssOS::Creating sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:23::SCWMssOS::Adding the swdes entry, created swdb C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:23::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:23::SCWMssOS::Writing mss at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:23::SCWMssOS::Completed writing the mss file at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2025-11-02.18:32:23::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2025-11-02.18:32:23::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2025-11-02.18:32:23::SCWMssOS::Completed writing the mss file at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2025-11-02.18:32:23::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2025-11-02.18:32:25::SCWMssOS::Saving the mss changes C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2025-11-02.18:32:25::SCWMssOS::Writing the mss file completed C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::Commit changes completed.
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.18:32:25::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.18:32:25::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.18:32:25::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.18:32:25::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.18:32:25::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.18:32:25::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWWriter::formatted JSON is {
+	"platformName":	"sha256_test_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"sha256_test_wrapper",
+	"platHandOff":	"C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vivado/ECE4300_sha256/sha256_test_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/sha256_test_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"sha256_test_wrapper",
+	"systems":	[{
+			"systemName":	"sha256_test_wrapper",
+			"systemDesc":	"sha256_test_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"sha256_test_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"6aa8b16c937137b4c8bbe70e7afad37f",
+					"compatibleApp":	"peripheral_tests",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2025-11-02.18:32:25::SCWPlatform::Started generating the artifacts platform sha256_test_wrapper
+TRACE::2025-11-02.18:32:25::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-11-02.18:32:25::SCWPlatform::Started generating the artifacts for system configuration sha256_test_wrapper
+LOG::2025-11-02.18:32:25::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2025-11-02.18:32:25::SCWSystem::Not a boot domain 
+LOG::2025-11-02.18:32:25::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2025-11-02.18:32:25::SCWDomain::Generating domain artifcats
+TRACE::2025-11-02.18:32:25::SCWMssOS::Generating standalone artifcats
+TRACE::2025-11-02.18:32:25::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.18:32:25::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.18:32:25::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::Completed writing the mss file at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2025-11-02.18:32:25::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-11-02.18:32:25::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-11-02.18:32:25::SCWDomain::Skipping the build for domain :  standalone_microblaze_0
+TRACE::2025-11-02.18:32:25::SCWMssOS::skipping the bsp build ... 
+TRACE::2025-11-02.18:32:25::SCWMssOS::Copying to export directory.
+TRACE::2025-11-02.18:32:25::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-11-02.18:32:25::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2025-11-02.18:32:25::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2025-11-02.18:32:25::SCWSystem::Completed Processing the sysconfig sha256_test_wrapper
+LOG::2025-11-02.18:32:25::SCWPlatform::Completed generating the artifacts for system configuration sha256_test_wrapper
+TRACE::2025-11-02.18:32:25::SCWPlatform::Started preparing the platform 
+TRACE::2025-11-02.18:32:25::SCWSystem::Writing the bif file for system config sha256_test_wrapper
+TRACE::2025-11-02.18:32:25::SCWSystem::dir created 
+TRACE::2025-11-02.18:32:25::SCWSystem::Writing the bif 
+TRACE::2025-11-02.18:32:25::SCWPlatform::Started writing the spfm file 
+TRACE::2025-11-02.18:32:25::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-11-02.18:32:25::SCWPlatform::Completed generating the platform
+TRACE::2025-11-02.18:32:25::SCWMssOS::Saving the mss changes C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-11-02.18:32:25::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-11-02.18:32:25::SCWMssOS::Commit changes completed.
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.18:32:25::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.18:32:25::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.18:32:25::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.18:32:25::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.18:32:25::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.18:32:25::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWWriter::formatted JSON is {
+	"platformName":	"sha256_test_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"sha256_test_wrapper",
+	"platHandOff":	"C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vivado/ECE4300_sha256/sha256_test_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/sha256_test_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"sha256_test_wrapper",
+	"systems":	[{
+			"systemName":	"sha256_test_wrapper",
+			"systemDesc":	"sha256_test_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"sha256_test_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"6aa8b16c937137b4c8bbe70e7afad37f",
+					"compatibleApp":	"peripheral_tests",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-11-02.18:32:25::SCWPlatform::updated the xpfm file.
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.18:32:25::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.18:32:25::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::Saving the mss changes C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-11-02.18:32:25::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-11-02.18:32:25::SCWMssOS::Commit changes completed.
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.18:32:25::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.18:32:25::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.18:32:25::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.18:32:25::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.18:32:25::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.18:32:25::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWWriter::formatted JSON is {
+	"platformName":	"sha256_test_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"sha256_test_wrapper",
+	"platHandOff":	"C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vivado/ECE4300_sha256/sha256_test_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/sha256_test_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"sha256_test_wrapper",
+	"systems":	[{
+			"systemName":	"sha256_test_wrapper",
+			"systemDesc":	"sha256_test_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"sha256_test_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"6aa8b16c937137b4c8bbe70e7afad37f",
+					"compatibleApp":	"peripheral_tests",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.18:32:25::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.18:32:25::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.18:32:25::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.18:32:25::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::Saving the mss changes C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-11-02.18:32:25::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-11-02.18:32:25::SCWMssOS::Commit changes completed.
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.18:32:25::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.18:32:25::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.18:32:25::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.18:32:25::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.18:32:25::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.18:32:25::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWWriter::formatted JSON is {
+	"platformName":	"sha256_test_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"sha256_test_wrapper",
+	"platHandOff":	"C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vivado/ECE4300_sha256/sha256_test_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/sha256_test_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"sha256_test_wrapper",
+	"systems":	[{
+			"systemName":	"sha256_test_wrapper",
+			"systemDesc":	"sha256_test_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"sha256_test_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"6aa8b16c937137b4c8bbe70e7afad37f",
+					"compatibleApp":	"peripheral_tests",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2025-11-02.18:32:25::SCWPlatform::Started generating the artifacts platform sha256_test_wrapper
+TRACE::2025-11-02.18:32:25::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-11-02.18:32:25::SCWPlatform::Started generating the artifacts for system configuration sha256_test_wrapper
+LOG::2025-11-02.18:32:25::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2025-11-02.18:32:25::SCWDomain::Generating domain artifcats
+TRACE::2025-11-02.18:32:25::SCWMssOS::Generating standalone artifcats
+TRACE::2025-11-02.18:32:25::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.18:32:25::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.18:32:25::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::Completed writing the mss file at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2025-11-02.18:32:25::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-11-02.18:32:25::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-11-02.18:32:25::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2025-11-02.18:32:25::SCWMssOS::skipping the bsp build ... 
+TRACE::2025-11-02.18:32:25::SCWMssOS::Copying to export directory.
+TRACE::2025-11-02.18:32:25::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-11-02.18:32:25::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2025-11-02.18:32:25::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2025-11-02.18:32:25::SCWSystem::Completed Processing the sysconfig sha256_test_wrapper
+LOG::2025-11-02.18:32:25::SCWPlatform::Completed generating the artifacts for system configuration sha256_test_wrapper
+TRACE::2025-11-02.18:32:25::SCWPlatform::Started preparing the platform 
+TRACE::2025-11-02.18:32:25::SCWSystem::Writing the bif file for system config sha256_test_wrapper
+TRACE::2025-11-02.18:32:25::SCWSystem::dir created 
+TRACE::2025-11-02.18:32:25::SCWSystem::Writing the bif 
+TRACE::2025-11-02.18:32:25::SCWPlatform::Started writing the spfm file 
+TRACE::2025-11-02.18:32:25::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-11-02.18:32:25::SCWPlatform::Completed generating the platform
+TRACE::2025-11-02.18:32:25::SCWMssOS::Saving the mss changes C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-11-02.18:32:25::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-11-02.18:32:25::SCWMssOS::Commit changes completed.
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.18:32:25::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.18:32:25::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.18:32:25::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.18:32:25::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.18:32:25::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.18:32:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.18:32:25::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.18:32:25::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.18:32:25::SCWWriter::formatted JSON is {
+	"platformName":	"sha256_test_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"sha256_test_wrapper",
+	"platHandOff":	"C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vivado/ECE4300_sha256/sha256_test_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/sha256_test_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"sha256_test_wrapper",
+	"systems":	[{
+			"systemName":	"sha256_test_wrapper",
+			"systemDesc":	"sha256_test_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"sha256_test_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"6aa8b16c937137b4c8bbe70e7afad37f",
+					"compatibleApp":	"peripheral_tests",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-11-02.18:32:25::SCWPlatform::updated the xpfm file.
+LOG::2025-11-02.20:21:17::SCWPlatform::Started generating the artifacts platform sha256_test_wrapper
+TRACE::2025-11-02.20:21:17::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-11-02.20:21:17::SCWPlatform::Started generating the artifacts for system configuration sha256_test_wrapper
+LOG::2025-11-02.20:21:17::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2025-11-02.20:21:17::SCWSystem::Not a boot domain 
+LOG::2025-11-02.20:21:17::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2025-11-02.20:21:17::SCWDomain::Generating domain artifcats
+TRACE::2025-11-02.20:21:17::SCWMssOS::Generating standalone artifcats
+TRACE::2025-11-02.20:21:17::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-11-02.20:21:17::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:21:17::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:21:17::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:21:17::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.20:21:17::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:21:17::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.20:21:17::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.20:21:17::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.20:21:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.20:21:17::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:21:17::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.20:21:17::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:21:17::SCWMssOS::Completed writing the mss file at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2025-11-02.20:21:17::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:21:17::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-11-02.20:21:17::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-11-02.20:21:17::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2025-11-02.20:21:17::SCWMssOS::doing bsp build ... 
+TRACE::2025-11-02.20:21:17::SCWMssOS::System Command Ran  C: & cd  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2025-11-02.20:21:17::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2025-11-02.20:21:17::SCWMssOS::"Running Make include in microblaze_0/libsrc/axi_sha256_v1_0/src"
+
+TRACE::2025-11-02.20:21:17::SCWMssOS::make -C microblaze_0/libsrc/axi_sha256_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2025-11-02.20:21:17::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2025-11-02.20:21:17::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:17::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_9/src"
+
+TRACE::2025-11-02.20:21:17::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-11-02.20:21:17::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2025-11-02.20:21:17::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:17::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_18/src"
+
+TRACE::2025-11-02.20:21:17::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-11-02.20:21:17::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2025-11-02.20:21:17::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:18::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_17/src"
+
+TRACE::2025-11-02.20:21:18::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_17/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2025-11-02.20:21:18::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2025-11-02.20:21:18::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:18::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v9_0/src"
+
+TRACE::2025-11-02.20:21:18::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2025-11-02.20:21:18::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2025-11-02.20:21:18::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:18::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_11/src"
+
+TRACE::2025-11-02.20:21:18::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_11/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2025-11-02.20:21:18::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2025-11-02.20:21:18::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:18::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_9/src"
+
+TRACE::2025-11-02.20:21:18::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2025-11-02.20:21:18::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTR
+TRACE::2025-11-02.20:21:18::SCWMssOS::A_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:19::SCWMssOS::"Running Make libs in microblaze_0/libsrc/axi_sha256_v1_0/src"
+
+TRACE::2025-11-02.20:21:19::SCWMssOS::make -C microblaze_0/libsrc/axi_sha256_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2025-11-02.20:21:19::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2025-11-02.20:21:19::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:19::SCWMssOS::"Compiling axi_sha256..."
+
+ERROR::2025-11-02.20:21:19::SCWMssOS::Failed to build  the bsp sources for domain - standalone_microblaze_0
+ERROR::2025-11-02.20:21:19::SCWSystem::Error in Processing the domain standalone_microblaze_0
+LOG::2025-11-02.20:21:27::SCWPlatform::Started generating the artifacts platform sha256_test_wrapper
+TRACE::2025-11-02.20:21:27::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-11-02.20:21:27::SCWPlatform::Started generating the artifacts for system configuration sha256_test_wrapper
+LOG::2025-11-02.20:21:27::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2025-11-02.20:21:27::SCWSystem::Not a boot domain 
+LOG::2025-11-02.20:21:27::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2025-11-02.20:21:27::SCWDomain::Generating domain artifcats
+TRACE::2025-11-02.20:21:27::SCWMssOS::Generating standalone artifcats
+TRACE::2025-11-02.20:21:27::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-11-02.20:21:27::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:21:27::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:21:27::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:21:27::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.20:21:27::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:21:27::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.20:21:27::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.20:21:27::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.20:21:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.20:21:27::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:21:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.20:21:27::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:21:27::SCWMssOS::Completed writing the mss file at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2025-11-02.20:21:27::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:21:27::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-11-02.20:21:27::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-11-02.20:21:27::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2025-11-02.20:21:27::SCWMssOS::doing bsp build ... 
+TRACE::2025-11-02.20:21:27::SCWMssOS::System Command Ran  C: & cd  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2025-11-02.20:21:27::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2025-11-02.20:21:27::SCWMssOS::"Running Make include in microblaze_0/libsrc/axi_sha256_v1_0/src"
+
+TRACE::2025-11-02.20:21:27::SCWMssOS::make -C microblaze_0/libsrc/axi_sha256_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2025-11-02.20:21:27::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2025-11-02.20:21:27::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:27::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_9/src"
+
+TRACE::2025-11-02.20:21:27::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-11-02.20:21:27::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2025-11-02.20:21:27::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:27::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_18/src"
+
+TRACE::2025-11-02.20:21:27::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-11-02.20:21:27::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2025-11-02.20:21:27::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:27::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_17/src"
+
+TRACE::2025-11-02.20:21:27::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_17/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2025-11-02.20:21:27::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2025-11-02.20:21:27::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:27::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v9_0/src"
+
+TRACE::2025-11-02.20:21:27::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2025-11-02.20:21:27::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2025-11-02.20:21:27::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:27::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_11/src"
+
+TRACE::2025-11-02.20:21:27::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_11/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2025-11-02.20:21:27::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2025-11-02.20:21:27::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:27::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_9/src"
+
+TRACE::2025-11-02.20:21:27::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2025-11-02.20:21:27::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTR
+TRACE::2025-11-02.20:21:27::SCWMssOS::A_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:27::SCWMssOS::"Running Make libs in microblaze_0/libsrc/axi_sha256_v1_0/src"
+
+TRACE::2025-11-02.20:21:27::SCWMssOS::make -C microblaze_0/libsrc/axi_sha256_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2025-11-02.20:21:27::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2025-11-02.20:21:27::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:27::SCWMssOS::"Compiling axi_sha256..."
+
+ERROR::2025-11-02.20:21:27::SCWMssOS::Failed to build  the bsp sources for domain - standalone_microblaze_0
+ERROR::2025-11-02.20:21:27::SCWSystem::Error in Processing the domain standalone_microblaze_0
+LOG::2025-11-02.20:21:41::SCWPlatform::Started generating the artifacts platform sha256_test_wrapper
+TRACE::2025-11-02.20:21:41::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-11-02.20:21:41::SCWPlatform::Started generating the artifacts for system configuration sha256_test_wrapper
+LOG::2025-11-02.20:21:41::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2025-11-02.20:21:41::SCWSystem::Not a boot domain 
+LOG::2025-11-02.20:21:41::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2025-11-02.20:21:41::SCWDomain::Generating domain artifcats
+TRACE::2025-11-02.20:21:41::SCWMssOS::Generating standalone artifcats
+TRACE::2025-11-02.20:21:41::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-11-02.20:21:41::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:21:41::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:21:41::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:21:41::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.20:21:41::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:21:41::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.20:21:41::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.20:21:41::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.20:21:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.20:21:41::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:21:41::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.20:21:41::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:21:41::SCWMssOS::Completed writing the mss file at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2025-11-02.20:21:41::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:21:41::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-11-02.20:21:41::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-11-02.20:21:41::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2025-11-02.20:21:41::SCWMssOS::doing bsp build ... 
+TRACE::2025-11-02.20:21:41::SCWMssOS::System Command Ran  C: & cd  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2025-11-02.20:21:41::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2025-11-02.20:21:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/axi_sha256_v1_0/src"
+
+TRACE::2025-11-02.20:21:41::SCWMssOS::make -C microblaze_0/libsrc/axi_sha256_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2025-11-02.20:21:41::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2025-11-02.20:21:41::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_9/src"
+
+TRACE::2025-11-02.20:21:41::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-11-02.20:21:41::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2025-11-02.20:21:41::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_18/src"
+
+TRACE::2025-11-02.20:21:41::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-11-02.20:21:41::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2025-11-02.20:21:41::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_17/src"
+
+TRACE::2025-11-02.20:21:41::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_17/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2025-11-02.20:21:41::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2025-11-02.20:21:41::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v9_0/src"
+
+TRACE::2025-11-02.20:21:41::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2025-11-02.20:21:41::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2025-11-02.20:21:41::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_11/src"
+
+TRACE::2025-11-02.20:21:41::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_11/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2025-11-02.20:21:41::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2025-11-02.20:21:41::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_9/src"
+
+TRACE::2025-11-02.20:21:41::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2025-11-02.20:21:41::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTR
+TRACE::2025-11-02.20:21:41::SCWMssOS::A_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:41::SCWMssOS::"Running Make libs in microblaze_0/libsrc/axi_sha256_v1_0/src"
+
+TRACE::2025-11-02.20:21:41::SCWMssOS::make -C microblaze_0/libsrc/axi_sha256_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2025-11-02.20:21:41::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2025-11-02.20:21:41::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:42::SCWMssOS::"Compiling axi_sha256..."
+
+ERROR::2025-11-02.20:21:42::SCWMssOS::Failed to build  the bsp sources for domain - standalone_microblaze_0
+ERROR::2025-11-02.20:21:42::SCWSystem::Error in Processing the domain standalone_microblaze_0
+LOG::2025-11-02.20:21:48::SCWPlatform::Started generating the artifacts platform sha256_test_wrapper
+TRACE::2025-11-02.20:21:48::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-11-02.20:21:48::SCWPlatform::Started generating the artifacts for system configuration sha256_test_wrapper
+LOG::2025-11-02.20:21:48::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2025-11-02.20:21:48::SCWSystem::Not a boot domain 
+LOG::2025-11-02.20:21:48::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2025-11-02.20:21:48::SCWDomain::Generating domain artifcats
+TRACE::2025-11-02.20:21:48::SCWMssOS::Generating standalone artifcats
+TRACE::2025-11-02.20:21:48::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-11-02.20:21:48::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:21:48::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:21:48::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:21:48::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.20:21:48::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:21:48::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.20:21:48::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.20:21:48::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.20:21:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.20:21:48::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:21:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.20:21:48::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:21:48::SCWMssOS::Completed writing the mss file at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2025-11-02.20:21:48::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:21:48::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-11-02.20:21:48::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-11-02.20:21:48::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2025-11-02.20:21:48::SCWMssOS::doing bsp build ... 
+TRACE::2025-11-02.20:21:48::SCWMssOS::System Command Ran  C: & cd  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2025-11-02.20:21:48::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2025-11-02.20:21:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/axi_sha256_v1_0/src"
+
+TRACE::2025-11-02.20:21:48::SCWMssOS::make -C microblaze_0/libsrc/axi_sha256_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2025-11-02.20:21:48::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2025-11-02.20:21:48::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_9/src"
+
+TRACE::2025-11-02.20:21:48::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-11-02.20:21:48::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2025-11-02.20:21:48::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_18/src"
+
+TRACE::2025-11-02.20:21:48::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-11-02.20:21:48::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2025-11-02.20:21:48::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_17/src"
+
+TRACE::2025-11-02.20:21:48::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_17/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2025-11-02.20:21:48::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2025-11-02.20:21:48::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v9_0/src"
+
+TRACE::2025-11-02.20:21:48::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2025-11-02.20:21:48::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2025-11-02.20:21:48::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:49::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_11/src"
+
+TRACE::2025-11-02.20:21:49::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_11/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2025-11-02.20:21:49::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2025-11-02.20:21:49::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:49::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_9/src"
+
+TRACE::2025-11-02.20:21:49::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2025-11-02.20:21:49::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTR
+TRACE::2025-11-02.20:21:49::SCWMssOS::A_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:49::SCWMssOS::"Running Make libs in microblaze_0/libsrc/axi_sha256_v1_0/src"
+
+TRACE::2025-11-02.20:21:49::SCWMssOS::make -C microblaze_0/libsrc/axi_sha256_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2025-11-02.20:21:49::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2025-11-02.20:21:49::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:21:49::SCWMssOS::"Compiling axi_sha256..."
+
+ERROR::2025-11-02.20:21:49::SCWMssOS::Failed to build  the bsp sources for domain - standalone_microblaze_0
+ERROR::2025-11-02.20:21:49::SCWSystem::Error in Processing the domain standalone_microblaze_0
+LOG::2025-11-02.20:23:23::SCWPlatform::Started generating the artifacts platform sha256_test_wrapper
+TRACE::2025-11-02.20:23:23::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-11-02.20:23:23::SCWPlatform::Started generating the artifacts for system configuration sha256_test_wrapper
+LOG::2025-11-02.20:23:23::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2025-11-02.20:23:23::SCWSystem::Not a boot domain 
+LOG::2025-11-02.20:23:23::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2025-11-02.20:23:23::SCWDomain::Generating domain artifcats
+TRACE::2025-11-02.20:23:23::SCWMssOS::Generating standalone artifcats
+TRACE::2025-11-02.20:23:23::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-11-02.20:23:23::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:23:23::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:23:23::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:23:23::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.20:23:23::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:23:23::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.20:23:23::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.20:23:23::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.20:23:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.20:23:23::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:23:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.20:23:23::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:23:23::SCWMssOS::Completed writing the mss file at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2025-11-02.20:23:23::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:23:23::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-11-02.20:23:23::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-11-02.20:23:23::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2025-11-02.20:23:23::SCWMssOS::doing bsp build ... 
+TRACE::2025-11-02.20:23:23::SCWMssOS::System Command Ran  C: & cd  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2025-11-02.20:23:23::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2025-11-02.20:23:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/axi_sha256_v1_0/src"
+
+TRACE::2025-11-02.20:23:23::SCWMssOS::make -C microblaze_0/libsrc/axi_sha256_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2025-11-02.20:23:23::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2025-11-02.20:23:23::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:23:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_9/src"
+
+TRACE::2025-11-02.20:23:23::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-11-02.20:23:23::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2025-11-02.20:23:23::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:23:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_18/src"
+
+TRACE::2025-11-02.20:23:23::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-11-02.20:23:23::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2025-11-02.20:23:23::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:23:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_17/src"
+
+TRACE::2025-11-02.20:23:23::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_17/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2025-11-02.20:23:23::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2025-11-02.20:23:23::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:23:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v9_0/src"
+
+TRACE::2025-11-02.20:23:23::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2025-11-02.20:23:23::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2025-11-02.20:23:23::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:23:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_11/src"
+
+TRACE::2025-11-02.20:23:23::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_11/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2025-11-02.20:23:23::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2025-11-02.20:23:23::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:23:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_9/src"
+
+TRACE::2025-11-02.20:23:23::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2025-11-02.20:23:23::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTR
+TRACE::2025-11-02.20:23:23::SCWMssOS::A_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:23:23::SCWMssOS::"Running Make libs in microblaze_0/libsrc/axi_sha256_v1_0/src"
+
+TRACE::2025-11-02.20:23:23::SCWMssOS::make -C microblaze_0/libsrc/axi_sha256_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2025-11-02.20:23:23::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2025-11-02.20:23:23::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/axi_sha256_v1_0/src"
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::make -C microblaze_0/libsrc/axi_sha256_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2025-11-02.20:23:24::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2025-11-02.20:23:24::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_9/src"
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-11-02.20:23:24::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2025-11-02.20:23:24::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_18/src"
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-11-02.20:23:24::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2025-11-02.20:23:24::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_17/src"
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_17/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2025-11-02.20:23:24::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2025-11-02.20:23:24::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v9_0/src"
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2025-11-02.20:23:24::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2025-11-02.20:23:24::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_11/src"
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_11/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2025-11-02.20:23:24::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2025-11-02.20:23:24::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_9/src"
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2025-11-02.20:23:24::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTR
+TRACE::2025-11-02.20:23:24::SCWMssOS::A_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_9/src"
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2025-11-02.20:23:24::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2025-11-02.20:23:24::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_18/src"
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2025-11-02.20:23:24::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2025-11-02.20:23:24::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_17/src"
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_17/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2025-11-02.20:23:24::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMP
+TRACE::2025-11-02.20:23:24::SCWMssOS::ILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v9_0/src"
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2025-11-02.20:23:24::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2025-11-02.20:23:24::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::"Running Make libs in microblaze_0/libsrc/tmrctr_v4_11/src"
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_11/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-11-02.20:23:24::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2025-11-02.20:23:24::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_9/src"
+
+TRACE::2025-11-02.20:23:24::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2025-11-02.20:23:24::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2025-11-02.20:23:24::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.20:23:26::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2025-11-02.20:23:26::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2025-11-02.20:23:26::SCWMssOS::make --no-print-directory archive
+
+TRACE::2025-11-02.20:23:26::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/axi_sha256.o microblaze_0/lib/axi_sha256_selftest
+TRACE::2025-11-02.20:23:26::SCWMssOS::.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib/hw_exception_handler.o microblaze_0/lib/inbyte.o microbla
+TRACE::2025-11-02.20:23:26::SCWMssOS::ze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disable_exceptions.o microblaze_0/lib/microblaze_disable_icach
+TRACE::2025-11-02.20:23:26::SCWMssOS::e.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib/microblaze_enable_dcache.o microblaze_0/lib/microblaze_en
+TRACE::2025-11-02.20:23:26::SCWMssOS::able_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microblaze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/
+TRACE::2025-11-02.20:23:26::SCWMssOS::microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cache_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.
+TRACE::2025-11-02.20:23:26::SCWMssOS::o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/microblaze_init_
+TRACE::2025-11-02.20:23:26::SCWMssOS::dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microblaze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib
+TRACE::2025-11-02.20:23:26::SCWMssOS::/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_
+TRACE::2025-11-02.20:23:26::SCWMssOS::range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/
+TRACE::2025-11-02.20:23:26::SCWMssOS::microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate_icache_range.o microblaze_0/lib/microblaze_scrub.o microb
+TRACE::2025-11-02.20:23:26::SCWMssOS::laze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o microblaze_0/lib/microblaze_update_dcache.o microblaze_0/l
+TRACE::2025-11-02.20:23:26::SCWMssOS::ib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram
+TRACE::2025-11-02.20:23:26::SCWMssOS::.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o mi
+TRACE::2025-11-02.20:23:26::SCWMssOS::croblaze_0/lib/xil_assert.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_exception.o micro
+TRACE::2025-11-02.20:23:26::SCWMssOS::blaze_0/lib/xil_mem.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o 
+TRACE::2025-11-02.20:23:26::SCWMssOS::microblaze_0/lib/xil_testcache.o microblaze_0/lib/xil_testio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o micro
+TRACE::2025-11-02.20:23:26::SCWMssOS::blaze_0/lib/xintc.o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_
+TRACE::2025-11-02.20:23:26::SCWMssOS::options.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xinterrupt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatfor
+TRACE::2025-11-02.20:23:26::SCWMssOS::m_info.o microblaze_0/lib/xpm_init.o microblaze_0/lib/xtmrctr.o microblaze_0/lib/xtmrctr_g.o microblaze_0/lib/xtmrctr_intr.o mi
+TRACE::2025-11-02.20:23:26::SCWMssOS::croblaze_0/lib/xtmrctr_l.o microblaze_0/lib/xtmrctr_options.o microblaze_0/lib/xtmrctr_selftest.o microblaze_0/lib/xtmrctr_sini
+TRACE::2025-11-02.20:23:26::SCWMssOS::t.o microblaze_0/lib/xtmrctr_stats.o microblaze_0/lib/xuartlite.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xuartlite_int
+TRACE::2025-11-02.20:23:26::SCWMssOS::r.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/xu
+TRACE::2025-11-02.20:23:26::SCWMssOS::artlite_stats.o
+
+TRACE::2025-11-02.20:23:26::SCWMssOS::'Finished building libraries'
+
+TRACE::2025-11-02.20:23:26::SCWMssOS::Copying to export directory.
+TRACE::2025-11-02.20:23:27::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-11-02.20:23:27::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2025-11-02.20:23:27::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2025-11-02.20:23:27::SCWSystem::Completed Processing the sysconfig sha256_test_wrapper
+LOG::2025-11-02.20:23:27::SCWPlatform::Completed generating the artifacts for system configuration sha256_test_wrapper
+TRACE::2025-11-02.20:23:27::SCWPlatform::Started preparing the platform 
+TRACE::2025-11-02.20:23:27::SCWSystem::Writing the bif file for system config sha256_test_wrapper
+TRACE::2025-11-02.20:23:27::SCWSystem::dir created 
+TRACE::2025-11-02.20:23:27::SCWSystem::Writing the bif 
+TRACE::2025-11-02.20:23:27::SCWPlatform::Started writing the spfm file 
+TRACE::2025-11-02.20:23:27::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-11-02.20:23:27::SCWPlatform::Completed generating the platform
+TRACE::2025-11-02.20:23:27::SCWMssOS::Saving the mss changes C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:23:27::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-11-02.20:23:27::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-11-02.20:23:27::SCWMssOS::Commit changes completed.
+TRACE::2025-11-02.20:23:27::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:23:27::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:23:27::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:23:27::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.20:23:27::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:23:27::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.20:23:27::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.20:23:27::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.20:23:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.20:23:27::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:23:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.20:23:27::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:23:27::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:23:27::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:23:27::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:23:27::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.20:23:27::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:23:27::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.20:23:27::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.20:23:27::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.20:23:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.20:23:27::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:23:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.20:23:27::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:23:27::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:23:27::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:23:27::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:23:27::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.20:23:27::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:23:27::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.20:23:27::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.20:23:27::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.20:23:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.20:23:27::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:23:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.20:23:27::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:23:27::SCWWriter::formatted JSON is {
+	"platformName":	"sha256_test_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"sha256_test_wrapper",
+	"platHandOff":	"C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vivado/ECE4300_sha256/sha256_test_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/sha256_test_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"sha256_test_wrapper",
+	"systems":	[{
+			"systemName":	"sha256_test_wrapper",
+			"systemDesc":	"sha256_test_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"sha256_test_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"6aa8b16c937137b4c8bbe70e7afad37f",
+					"compatibleApp":	"peripheral_tests",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-11-02.20:23:27::SCWPlatform::updated the xpfm file.
+TRACE::2025-11-02.20:23:27::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:23:27::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:23:27::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:23:27::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.20:23:27::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:23:27::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.20:23:27::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.20:23:27::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.20:23:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.20:23:27::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:23:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.20:23:27::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+LOG::2025-11-02.20:43:09::SCWPlatform::Started generating the artifacts platform sha256_test_wrapper
+TRACE::2025-11-02.20:43:09::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-11-02.20:43:09::SCWPlatform::Started generating the artifacts for system configuration sha256_test_wrapper
+LOG::2025-11-02.20:43:09::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2025-11-02.20:43:09::SCWSystem::Not a boot domain 
+LOG::2025-11-02.20:43:09::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2025-11-02.20:43:09::SCWDomain::Generating domain artifcats
+TRACE::2025-11-02.20:43:09::SCWMssOS::Generating standalone artifcats
+TRACE::2025-11-02.20:43:09::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-11-02.20:43:09::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:43:09::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:43:09::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:43:09::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.20:43:09::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:43:09::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.20:43:09::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.20:43:09::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.20:43:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.20:43:09::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:43:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.20:43:09::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:43:09::SCWMssOS::Completed writing the mss file at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2025-11-02.20:43:09::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:43:09::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-11-02.20:43:09::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-11-02.20:43:09::SCWDomain::Skipping the build for domain :  standalone_microblaze_0
+TRACE::2025-11-02.20:43:09::SCWMssOS::skipping the bsp build ... 
+TRACE::2025-11-02.20:43:09::SCWMssOS::Copying to export directory.
+TRACE::2025-11-02.20:43:09::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-11-02.20:43:09::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2025-11-02.20:43:09::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2025-11-02.20:43:09::SCWSystem::Completed Processing the sysconfig sha256_test_wrapper
+LOG::2025-11-02.20:43:09::SCWPlatform::Completed generating the artifacts for system configuration sha256_test_wrapper
+TRACE::2025-11-02.20:43:09::SCWPlatform::Started preparing the platform 
+TRACE::2025-11-02.20:43:09::SCWSystem::Writing the bif file for system config sha256_test_wrapper
+TRACE::2025-11-02.20:43:09::SCWSystem::dir created 
+TRACE::2025-11-02.20:43:09::SCWSystem::Writing the bif 
+TRACE::2025-11-02.20:43:09::SCWPlatform::Started writing the spfm file 
+TRACE::2025-11-02.20:43:09::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-11-02.20:43:09::SCWPlatform::Completed generating the platform
+TRACE::2025-11-02.20:43:09::SCWMssOS::Saving the mss changes C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:43:09::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-11-02.20:43:09::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-11-02.20:43:09::SCWMssOS::Commit changes completed.
+TRACE::2025-11-02.20:43:09::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:43:09::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:43:09::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:43:09::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.20:43:09::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:43:09::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.20:43:09::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.20:43:09::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.20:43:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.20:43:09::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:43:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.20:43:09::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:43:09::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:43:09::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:43:09::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:43:09::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.20:43:09::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:43:09::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.20:43:09::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.20:43:09::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.20:43:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.20:43:09::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:43:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.20:43:09::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:43:09::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:43:09::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:43:09::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:43:09::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.20:43:09::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:43:09::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.20:43:09::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.20:43:09::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.20:43:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.20:43:09::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:43:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.20:43:09::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:43:09::SCWWriter::formatted JSON is {
+	"platformName":	"sha256_test_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"sha256_test_wrapper",
+	"platHandOff":	"C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vivado/ECE4300_sha256/sha256_test_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/sha256_test_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"sha256_test_wrapper",
+	"systems":	[{
+			"systemName":	"sha256_test_wrapper",
+			"systemDesc":	"sha256_test_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"sha256_test_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"6aa8b16c937137b4c8bbe70e7afad37f",
+					"compatibleApp":	"peripheral_tests",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-11-02.20:43:09::SCWPlatform::updated the xpfm file.
+TRACE::2025-11-02.20:43:09::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:43:09::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:43:09::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:43:09::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.20:43:09::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:43:09::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.20:43:09::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.20:43:09::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.20:43:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.20:43:09::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:43:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.20:43:09::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+LOG::2025-11-02.20:51:25::SCWPlatform::Started generating the artifacts platform sha256_test_wrapper
+TRACE::2025-11-02.20:51:25::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-11-02.20:51:25::SCWPlatform::Started generating the artifacts for system configuration sha256_test_wrapper
+LOG::2025-11-02.20:51:25::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2025-11-02.20:51:25::SCWSystem::Not a boot domain 
+LOG::2025-11-02.20:51:25::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2025-11-02.20:51:25::SCWDomain::Generating domain artifcats
+TRACE::2025-11-02.20:51:25::SCWMssOS::Generating standalone artifcats
+TRACE::2025-11-02.20:51:25::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-11-02.20:51:25::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:51:25::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:51:25::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:51:25::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.20:51:25::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:51:25::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.20:51:25::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.20:51:25::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.20:51:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.20:51:25::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:51:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.20:51:25::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:51:25::SCWMssOS::Completed writing the mss file at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2025-11-02.20:51:25::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:51:25::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-11-02.20:51:25::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-11-02.20:51:25::SCWDomain::Skipping the build for domain :  standalone_microblaze_0
+TRACE::2025-11-02.20:51:25::SCWMssOS::skipping the bsp build ... 
+TRACE::2025-11-02.20:51:25::SCWMssOS::Copying to export directory.
+TRACE::2025-11-02.20:51:25::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-11-02.20:51:25::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2025-11-02.20:51:25::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2025-11-02.20:51:25::SCWSystem::Completed Processing the sysconfig sha256_test_wrapper
+LOG::2025-11-02.20:51:25::SCWPlatform::Completed generating the artifacts for system configuration sha256_test_wrapper
+TRACE::2025-11-02.20:51:25::SCWPlatform::Started preparing the platform 
+TRACE::2025-11-02.20:51:25::SCWSystem::Writing the bif file for system config sha256_test_wrapper
+TRACE::2025-11-02.20:51:25::SCWSystem::dir created 
+TRACE::2025-11-02.20:51:25::SCWSystem::Writing the bif 
+TRACE::2025-11-02.20:51:25::SCWPlatform::Started writing the spfm file 
+TRACE::2025-11-02.20:51:25::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-11-02.20:51:25::SCWPlatform::Completed generating the platform
+TRACE::2025-11-02.20:51:25::SCWMssOS::Saving the mss changes C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:51:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-11-02.20:51:25::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-11-02.20:51:25::SCWMssOS::Commit changes completed.
+TRACE::2025-11-02.20:51:25::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:51:25::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:51:25::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:51:25::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.20:51:25::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:51:25::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.20:51:25::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.20:51:25::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.20:51:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.20:51:25::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:51:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.20:51:25::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:51:25::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:51:25::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:51:25::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:51:25::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.20:51:25::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:51:25::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.20:51:25::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.20:51:25::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.20:51:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.20:51:25::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:51:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.20:51:25::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:51:25::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:51:25::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:51:25::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:51:25::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.20:51:25::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:51:25::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.20:51:25::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.20:51:25::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.20:51:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.20:51:25::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:51:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.20:51:25::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:51:25::SCWWriter::formatted JSON is {
+	"platformName":	"sha256_test_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"sha256_test_wrapper",
+	"platHandOff":	"C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vivado/ECE4300_sha256/sha256_test_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/sha256_test_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"sha256_test_wrapper",
+	"systems":	[{
+			"systemName":	"sha256_test_wrapper",
+			"systemDesc":	"sha256_test_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"sha256_test_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"6aa8b16c937137b4c8bbe70e7afad37f",
+					"compatibleApp":	"peripheral_tests",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-11-02.20:51:25::SCWPlatform::updated the xpfm file.
+TRACE::2025-11-02.20:51:25::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:51:25::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:51:25::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:51:25::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.20:51:25::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.20:51:25::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.20:51:25::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.20:51:25::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.20:51:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.20:51:25::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.20:51:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.20:51:25::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+LOG::2025-11-02.21:30:14::SCWPlatform::Started generating the artifacts platform sha256_test_wrapper
+TRACE::2025-11-02.21:30:14::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-11-02.21:30:14::SCWPlatform::Started generating the artifacts for system configuration sha256_test_wrapper
+LOG::2025-11-02.21:30:14::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2025-11-02.21:30:14::SCWSystem::Not a boot domain 
+LOG::2025-11-02.21:30:14::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2025-11-02.21:30:14::SCWDomain::Generating domain artifcats
+TRACE::2025-11-02.21:30:14::SCWMssOS::Generating standalone artifcats
+TRACE::2025-11-02.21:30:14::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-11-02.21:30:14::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.21:30:14::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.21:30:14::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.21:30:14::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.21:30:14::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.21:30:14::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.21:30:14::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.21:30:14::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.21:30:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.21:30:14::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.21:30:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.21:30:14::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.21:30:14::SCWMssOS::Completed writing the mss file at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2025-11-02.21:30:14::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.21:30:14::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-11-02.21:30:14::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-11-02.21:30:14::SCWDomain::Building the domain :  standalone_microblaze_0
+TRACE::2025-11-02.21:30:14::SCWMssOS::doing bsp build ... 
+TRACE::2025-11-02.21:30:14::SCWMssOS::System Command Ran  C: & cd  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2025-11-02.21:30:14::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2025-11-02.21:30:14::SCWMssOS::"Running Make include in microblaze_0/libsrc/axi_sha256_v1_0/src"
+
+TRACE::2025-11-02.21:30:14::SCWMssOS::make -C microblaze_0/libsrc/axi_sha256_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2025-11-02.21:30:14::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2025-11-02.21:30:14::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.21:30:15::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_9/src"
+
+TRACE::2025-11-02.21:30:15::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-11-02.21:30:15::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2025-11-02.21:30:15::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.21:30:15::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_18/src"
+
+TRACE::2025-11-02.21:30:15::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-11-02.21:30:15::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2025-11-02.21:30:15::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.21:30:15::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_17/src"
+
+TRACE::2025-11-02.21:30:15::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_17/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2025-11-02.21:30:15::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2025-11-02.21:30:15::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.21:30:15::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v9_0/src"
+
+TRACE::2025-11-02.21:30:15::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2025-11-02.21:30:15::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2025-11-02.21:30:15::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.21:30:15::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_11/src"
+
+TRACE::2025-11-02.21:30:15::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_11/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2025-11-02.21:30:15::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2025-11-02.21:30:15::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.21:30:15::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_9/src"
+
+TRACE::2025-11-02.21:30:15::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2025-11-02.21:30:15::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTR
+TRACE::2025-11-02.21:30:15::SCWMssOS::A_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.21:30:15::SCWMssOS::"Running Make libs in microblaze_0/libsrc/axi_sha256_v1_0/src"
+
+TRACE::2025-11-02.21:30:15::SCWMssOS::make -C microblaze_0/libsrc/axi_sha256_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2025-11-02.21:30:15::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2025-11-02.21:30:15::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.21:30:15::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2025-11-02.21:30:15::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::"Running Make include in microblaze_0/libsrc/axi_sha256_v1_0/src"
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::make -C microblaze_0/libsrc/axi_sha256_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2025-11-02.21:30:16::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2025-11-02.21:30:16::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_9/src"
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-11-02.21:30:16::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2025-11-02.21:30:16::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_18/src"
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-11-02.21:30:16::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2025-11-02.21:30:16::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_17/src"
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_17/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2025-11-02.21:30:16::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2025-11-02.21:30:16::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v9_0/src"
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2025-11-02.21:30:16::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2025-11-02.21:30:16::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_11/src"
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_11/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2025-11-02.21:30:16::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2025-11-02.21:30:16::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_9/src"
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2025-11-02.21:30:16::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTR
+TRACE::2025-11-02.21:30:16::SCWMssOS::A_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_9/src"
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2025-11-02.21:30:16::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2025-11-02.21:30:16::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_18/src"
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2025-11-02.21:30:16::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2025-11-02.21:30:16::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_17/src"
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_17/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2025-11-02.21:30:16::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMP
+TRACE::2025-11-02.21:30:16::SCWMssOS::ILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v9_0/src"
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2025-11-02.21:30:16::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2025-11-02.21:30:16::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::"Running Make libs in microblaze_0/libsrc/tmrctr_v4_11/src"
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_11/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-11-02.21:30:16::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2025-11-02.21:30:16::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_9/src"
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2025-11-02.21:30:16::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2025-11-02.21:30:16::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2025-11-02.21:30:16::SCWMssOS::make --no-print-directory archive
+
+TRACE::2025-11-02.21:30:17::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/axi_sha256.o microblaze_0/lib/axi_sha256_selftest
+TRACE::2025-11-02.21:30:17::SCWMssOS::.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib/hw_exception_handler.o microblaze_0/lib/inbyte.o microbla
+TRACE::2025-11-02.21:30:17::SCWMssOS::ze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disable_exceptions.o microblaze_0/lib/microblaze_disable_icach
+TRACE::2025-11-02.21:30:17::SCWMssOS::e.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib/microblaze_enable_dcache.o microblaze_0/lib/microblaze_en
+TRACE::2025-11-02.21:30:17::SCWMssOS::able_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microblaze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/
+TRACE::2025-11-02.21:30:17::SCWMssOS::microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cache_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.
+TRACE::2025-11-02.21:30:17::SCWMssOS::o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/microblaze_init_
+TRACE::2025-11-02.21:30:17::SCWMssOS::dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microblaze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib
+TRACE::2025-11-02.21:30:17::SCWMssOS::/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_
+TRACE::2025-11-02.21:30:17::SCWMssOS::range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/
+TRACE::2025-11-02.21:30:17::SCWMssOS::microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate_icache_range.o microblaze_0/lib/microblaze_scrub.o microb
+TRACE::2025-11-02.21:30:17::SCWMssOS::laze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o microblaze_0/lib/microblaze_update_dcache.o microblaze_0/l
+TRACE::2025-11-02.21:30:17::SCWMssOS::ib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram
+TRACE::2025-11-02.21:30:17::SCWMssOS::.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o mi
+TRACE::2025-11-02.21:30:17::SCWMssOS::croblaze_0/lib/xil_assert.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_exception.o micro
+TRACE::2025-11-02.21:30:17::SCWMssOS::blaze_0/lib/xil_mem.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o 
+TRACE::2025-11-02.21:30:17::SCWMssOS::microblaze_0/lib/xil_testcache.o microblaze_0/lib/xil_testio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o micro
+TRACE::2025-11-02.21:30:17::SCWMssOS::blaze_0/lib/xintc.o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_
+TRACE::2025-11-02.21:30:17::SCWMssOS::options.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xinterrupt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatfor
+TRACE::2025-11-02.21:30:17::SCWMssOS::m_info.o microblaze_0/lib/xpm_init.o microblaze_0/lib/xtmrctr.o microblaze_0/lib/xtmrctr_g.o microblaze_0/lib/xtmrctr_intr.o mi
+TRACE::2025-11-02.21:30:17::SCWMssOS::croblaze_0/lib/xtmrctr_l.o microblaze_0/lib/xtmrctr_options.o microblaze_0/lib/xtmrctr_selftest.o microblaze_0/lib/xtmrctr_sini
+TRACE::2025-11-02.21:30:17::SCWMssOS::t.o microblaze_0/lib/xtmrctr_stats.o microblaze_0/lib/xuartlite.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xuartlite_int
+TRACE::2025-11-02.21:30:17::SCWMssOS::r.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/xu
+TRACE::2025-11-02.21:30:17::SCWMssOS::artlite_stats.o
+
+TRACE::2025-11-02.21:30:17::SCWMssOS::'Finished building libraries'
+
+TRACE::2025-11-02.21:30:17::SCWMssOS::Copying to export directory.
+TRACE::2025-11-02.21:30:17::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-11-02.21:30:17::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2025-11-02.21:30:17::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2025-11-02.21:30:17::SCWSystem::Completed Processing the sysconfig sha256_test_wrapper
+LOG::2025-11-02.21:30:17::SCWPlatform::Completed generating the artifacts for system configuration sha256_test_wrapper
+TRACE::2025-11-02.21:30:17::SCWPlatform::Started preparing the platform 
+TRACE::2025-11-02.21:30:17::SCWSystem::Writing the bif file for system config sha256_test_wrapper
+TRACE::2025-11-02.21:30:17::SCWSystem::dir created 
+TRACE::2025-11-02.21:30:17::SCWSystem::Writing the bif 
+TRACE::2025-11-02.21:30:17::SCWPlatform::Started writing the spfm file 
+TRACE::2025-11-02.21:30:17::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-11-02.21:30:17::SCWPlatform::Completed generating the platform
+TRACE::2025-11-02.21:30:17::SCWMssOS::Saving the mss changes C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.21:30:17::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-11-02.21:30:17::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-11-02.21:30:17::SCWMssOS::Commit changes completed.
+TRACE::2025-11-02.21:30:17::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.21:30:17::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.21:30:17::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.21:30:17::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.21:30:17::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.21:30:17::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.21:30:17::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.21:30:17::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.21:30:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.21:30:17::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.21:30:17::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.21:30:17::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.21:30:17::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.21:30:17::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.21:30:17::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.21:30:17::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.21:30:17::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.21:30:17::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.21:30:17::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.21:30:17::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.21:30:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.21:30:17::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.21:30:17::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.21:30:17::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.21:30:17::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.21:30:17::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.21:30:17::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.21:30:17::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.21:30:17::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.21:30:17::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.21:30:17::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.21:30:17::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.21:30:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.21:30:17::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.21:30:17::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.21:30:17::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.21:30:17::SCWWriter::formatted JSON is {
+	"platformName":	"sha256_test_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"sha256_test_wrapper",
+	"platHandOff":	"C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vivado/ECE4300_sha256/sha256_test_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/sha256_test_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"sha256_test_wrapper",
+	"systems":	[{
+			"systemName":	"sha256_test_wrapper",
+			"systemDesc":	"sha256_test_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"sha256_test_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"6aa8b16c937137b4c8bbe70e7afad37f",
+					"compatibleApp":	"peripheral_tests",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-11-02.21:30:17::SCWPlatform::updated the xpfm file.
+TRACE::2025-11-02.21:30:17::SCWPlatform::Trying to open the hw design at C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.21:30:17::SCWPlatform::DSA given C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.21:30:17::SCWPlatform::DSA absoulate path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.21:30:17::SCWPlatform::DSA directory C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw
+TRACE::2025-11-02.21:30:17::SCWPlatform:: Platform Path C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/hw/sha256_test_wrapper.xsa
+TRACE::2025-11-02.21:30:17::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2025-11-02.21:30:17::SCWPlatform::Trying to set the existing hwdb with name sha256_test_wrapper_0
+TRACE::2025-11-02.21:30:17::SCWPlatform::Opened existing hwdb sha256_test_wrapper_0
+TRACE::2025-11-02.21:30:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-02.21:30:17::SCWMssOS::Checking the sw design at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-02.21:30:17::SCWMssOS::DEBUG:  swdes dump  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-02.21:30:17::SCWMssOS::Sw design exists and opened at  C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vitis/sha256_test_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss

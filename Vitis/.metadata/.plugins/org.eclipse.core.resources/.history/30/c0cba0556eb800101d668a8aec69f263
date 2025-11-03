@@ -1,0 +1,106 @@
+/*
+ *
+ * Xilinx, Inc.
+ * XILINX IS PROVIDING THIS DESIGN, CODE, OR INFORMATION "AS IS" AS A 
+ * COURTESY TO YOU.  BY PROVIDING THIS DESIGN, CODE, OR INFORMATION AS
+ * ONE POSSIBLE   IMPLEMENTATION OF THIS FEATURE, APPLICATION OR 
+ * STANDARD, XILINX IS MAKING NO REPRESENTATION THAT THIS IMPLEMENTATION 
+ * IS FREE FROM ANY CLAIMS OF INFRINGEMENT, AND YOU ARE RESPONSIBLE 
+ * FOR OBTAINING ANY RIGHTS YOU MAY REQUIRE FOR YOUR IMPLEMENTATION
+ * XILINX EXPRESSLY DISCLAIMS ANY WARRANTY WHATSOEVER WITH RESPECT TO 
+ * THE ADEQUACY OF THE IMPLEMENTATION, INCLUDING BUT NOT LIMITED TO 
+ * ANY WARRANTIES OR REPRESENTATIONS THAT THIS IMPLEMENTATION IS FREE 
+ * FROM CLAIMS OF INFRINGEMENT, IMPLIED WARRANTIES OF MERCHANTABILITY 
+ * AND FITNESS FOR A PARTICULAR PURPOSE.
+ */
+
+/*
+ * 
+ *
+ * This file is a generated sample test application.
+ *
+ * This application is intended to test and/or illustrate some 
+ * functionality of your system.  The contents of this file may
+ * vary depending on the IP in your system and may use existing
+ * IP driver functions.  These drivers will be generated in your
+ * SDK application project when you run the "Generate Libraries" menu item.
+ *
+ */
+
+#include <stdio.h>
+#include "xparameters.h"
+#include "xil_cache.h"
+#include "xintc.h"
+#include "intc_header.h"
+#include "xtmrctr.h"
+#include "tmrctr_header.h"
+#include "tmrctr_intr_header.h"
+#include "uartlite_header.h"
+#include "axi_sha256.h"
+
+XTmrCtr bench_tmr;
+
+uint32_t sha256_hw_try(uint8_t *msg, uint32_t *expected_hash);
+
+int main () 
+{
+   static XIntc intc;
+   static XTmrCtr axi_timer_0_Timer;
+   Xil_ICacheEnable();
+   Xil_DCacheEnable();
+   print("---Entering main---\n\r");
+
+   {
+	    print("\r\nBenchmarking sha256...\r\n");
+
+	   	XTmrCtr_Initialize(&bench_tmr, XPAR_TMRCTR_0_DEVICE_ID);
+
+	   	uint32_t num_cy_hw, num_cy_sw;
+	   	uint8_t in0[10] __attribute__((aligned(4))) = "abc";
+	   	uint32_t out0[8] = {
+	   			0xBA7816BF,
+	   			0x8F01CFEA,
+	   			0x414140DE,
+	   			0x5DAE2223,
+	   			0xB00361A3,
+	   			0x96177A9C,
+	   			0xB410FF61,
+	   			0xF20015AD};
+
+	   	num_cy_hw = sha256_hw_try(in0, out0);
+	   	xil_printf("hw\n\r\tnum cycles: %d\n\r", num_cy_hw);
+   }
+
+
+
+
+
+   print("---Exiting main---\n\r");
+   Xil_DCacheDisable();
+   Xil_ICacheDisable();
+   return 0;
+}
+
+// Returns the approx number of cycles and -1 if the hash doesn't
+// match the expected output or fails for whatever reason
+// Input message is a string
+uint32_t sha256_hw_try(uint8_t *msg, uint32_t *expected_hash) {
+	uint32_t hash[8];
+	s32 return_status;
+
+	XTmrCtr_Start(&bench_tmr, 0);
+	return_status = sha256(msg, 3, hash, BLOCKING);
+	XTmrCtr_Stop(&bench_tmr, 0);
+
+	if (return_status == XST_FAILURE)
+		xil_printf("failed!'r'n");
+		return -1;
+
+	for (uint32_t i = 0; i < 8; i++) {
+		xil_printf("%08X\n\r", hash[i]);
+		if (expected_hash[i] != hash[i])
+			return -1;
+	}
+
+	return XTmrCtr_GetValue(&bench_tmr, 0);
+}
