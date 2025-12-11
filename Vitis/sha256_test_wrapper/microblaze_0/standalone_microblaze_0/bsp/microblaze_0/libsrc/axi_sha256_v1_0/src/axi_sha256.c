@@ -247,7 +247,6 @@ s32 sha256(void *msg_ptr, uint64_t msg_size, uint32_t *hash_ptr, blocking_t bnb)
 			// if is_final_block is true, then that means the previous intermediate hash was the last
 			// and the loop should have been exited
 			if (sha256_obj.final_block)
-				xil_printf("got to final block and hash did not finish\r\n");
 				return XST_FAILURE;
 
 			load_msg_buffer();
@@ -285,7 +284,6 @@ s32 sha256(void *msg_ptr, uint64_t msg_size, uint32_t *hash_ptr, blocking_t bnb)
 		// if is_final_block is true, then that means the previous intermediate hash was the last
 		// and the loop should have been exited
 		if (sha256_obj.final_block)
-			xil_printf("got to final block and hash did not finish\r\n");
 			return XST_FAILURE;
 
 		load_msg_buffer();

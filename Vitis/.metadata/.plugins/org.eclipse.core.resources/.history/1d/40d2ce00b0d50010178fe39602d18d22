@@ -1,0 +1,53 @@
+#include <stdio.h>
+#include "xparameters.h"
+#include "xil_cache.h"
+#include "xintc.h"
+#include "intc_header.h"
+#include "xtmrctr.h"
+#include "tmrctr_header.h"
+#include "tmrctr_intr_header.h"
+#include "uartlite_header.h"
+#include "axi_sha256.h"
+#include "string.h"
+#include "xstatus.h"
+#include "stdlib.h"
+
+
+void benchmark(){
+	sha256_reset();
+	uint32_t hash_ptr[8];
+
+	uint32_t len = 64;
+
+	*SHA256_MSG_SIZE_L = len;
+	*SHA256_MSG_SIZE_H = 0;
+
+;
+
+	uint8_t block[64];
+	char *p = (char *)block;
+
+	for (int i = 0; i < 64; i++) {
+	    *p = 'a' + (rand() % 26);   // random character a–z
+	    p++;                       // increment the char pointer
+	}
+
+
+	// Now push it as 16 words with the right endianness:
+	volatile uint32_t * const msg_regs = SHA256_MSG0;
+	const uint32_t *src32 = (const uint32_t *)block;   // treat block as 16 words
+
+	for (int i = 0; i < 16; ++i) {
+	    msg_regs[i] = src32[i];   // write each 32-bit word
+	}
+
+	sha256_update();
+
+	while (!sha256_is_block_done());
+
+	sha256_ack_block_done();
+
+	// acknowledge that the hash is done and to reset the module - HASHn registers don't reset
+	sha256_ack_hash_done();
+
+}

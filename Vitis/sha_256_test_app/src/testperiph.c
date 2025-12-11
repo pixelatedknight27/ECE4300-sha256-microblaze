@@ -30,89 +30,88 @@
 #include <stdio.h>
 #include "xparameters.h"
 #include "xil_cache.h"
-#include "xintc.h"
-#include "intc_header.h"
 #include "xtmrctr.h"
 #include "tmrctr_header.h"
 #include "tmrctr_intr_header.h"
 #include "uartlite_header.h"
 #include "axi_sha256.h"
+#include "string.h"
+#include "xstatus.h"
+#include "stdlib.h"
+#include "test.h"
 
-XTmrCtr bench_tmr;
-
-uint32_t sha256_hw_try(uint8_t *msg, uint32_t *expected_hash);
+#define TEST_DURATION_SEC 3
+#define BUFFER_SIZE (4 * 16)
 
 int main () 
 {
-   static XIntc intc;
    static XTmrCtr axi_timer_0_Timer;
    Xil_ICacheEnable();
    Xil_DCacheEnable();
-   print("---Entering main---\n\r");
+   xil_printf("---Entering main---\n\r");
 
-//   {
-//	   int status;
-//
-//	   print("\r\n Running AXI_SHA256_Reg_SelfTest() for microblaze_0_axi_intc...\r\n");
-//
-//	   status = AXI_SHA256_Reg_SelfTest(XPAR_AXI_SHA256_0_DEVICE_ID);
-//
-//	   if (status == 0) {
-//		   print("AXI_SHA256_Reg_SelfTest PASSED\r\n");
-//	   }
-//	   else {
-//	       print("AXI_SHA256_Reg_SelfTest FAILED\r\n");
-//	   }
-//
-//	   print("\r\nBenchmarking sha256...\r\n");
-//
-//	   XTmrCtr_Initialize(&bench_tmr, XPAR_TMRCTR_0_DEVICE_ID);
-//
-//	   print("\r\n Running sha256() for microblaze_0_axi_intc...\r\n");
-//
-//	   uint32_t hash[8];
-//	   status = sha256("abc", 3, hash, BLOCKING);
-//
-//	   	if (status == 0) {
-//	   		print("sha256 PASSED\r\n");
-//	   	}
-//	   	else {
-//	   		print("sha256 FAILED\r\n");
-//	   	}
-//   }
+   printf("=========================================\n\r");
+   printf("     Microblaze SHA-256 Benchmark        \n\r");
+   printf("=========================================\n\r");
 
-   print("---Exiting main---\n\r");
+   XTmrCtr_Initialize(&axi_timer_0_Timer, 0);
+   XTmrCtr_Start(&axi_timer_0_Timer, 0);
+
+   s32 duration_us = TEST_DURATION_SEC * 100000000;
+   s32 start_time = XTmrCtr_GetValue(&axi_timer_0_Timer, 0);
+   s32 end_target = start_time + duration_us;
+   s32 current_time = start_time;
+
+   uint32_t block_count = 0;
+
+   printf("Running SHA-256 on %dB blocks for %d seconds...\n", BUFFER_SIZE, TEST_DURATION_SEC);
+
+   while (current_time < end_target) {
+       benchmark();
+
+       block_count++;
+       current_time = XTmrCtr_GetValue(&axi_timer_0_Timer, 0);
+   }
+
+   // 4. Calculate Metrics
+   uint64_t actual_duration_us = current_time - start_time;
+   double actual_duration_sec = (double)actual_duration_us / 100000000.0;
+
+   // Total Bytes = blocks * 16384 bytes
+   uint64_t total_bytes = (uint64_t)block_count * BUFFER_SIZE;
+   double total_megabytes = (double)total_bytes / (1024.0 * 1024.0);
+
+   // Throughput (MB/s)
+   double throughput = total_megabytes / actual_duration_sec;
+
+   // Latency per block (milliseconds)
+   // How long did one 16KB block take on average?
+   double latency_ms = (actual_duration_sec * 1000.0) / (double)block_count;
+
+
+   // 5. Print Performance Output Table
+   printf("\nBenchmark Results:\n");
+   printf("+---------------------------+--------------------------+\n");
+   printf("| %-25s | %-24s |\n", "Metric", "Value");
+   printf("+---------------------------+--------------------------+\n");
+   printf("| %-25s | %-24s |\n", "Block Size", "64 B");
+   printf("| %-25s | %-24d |\n", "Target Duration", TEST_DURATION_SEC);
+   printf("| %-25s | %-24.4f |\n", "Actual Duration (s)", actual_duration_sec);
+   printf("| %-25s | %-24lu |\n", "Total Blocks Processed", block_count);
+   printf("| %-25s | %-24.2f |\n", "Total Data Processed (MB)", total_megabytes);
+   printf("|---------------------------+--------------------------|\n");
+   printf("| %-25s | %-24.2f |\n", "Throughput (MB/s)", throughput);
+   printf("| %-25s | %-24.4f |\n", "Latency (ms/block)", latency_ms);
+   printf("+---------------------------+--------------------------+\n");
+
+   xil_printf("---Exiting main---\n\r");
+
+   while(1){
+	   asm volatile("nop");
+   }
+
    Xil_DCacheDisable();
    Xil_ICacheDisable();
    return 0;
 }
 
-// Returns the approx number of cycles and -1 if the hash doesn't
-// match the expected output or fails for whatever reason
-// Input message is a string
-uint32_t sha256_hw_try(uint8_t *msg, uint32_t *expected_hash) {
-	uint32_t hash[8];
-	s32 return_status;
-
-	XTmrCtr_Start(&bench_tmr, 0);
-	return_status = sha256(msg, 3, hash, BLOCKING);
-	XTmrCtr_Stop(&bench_tmr, 0);
-
-	for (uint32_t i = 0; i < 8; i++) {
-			xil_printf("%08X\n\r", hash[i]);
-			if (expected_hash[i] != hash[i])
-				return -1;
-		}
-
-	if (return_status == XST_FAILURE)
-		xil_printf("failed!\r\n");
-		return -1;
-
-	for (uint32_t i = 0; i < 8; i++) {
-		xil_printf("%08X\n\r", hash[i]);
-		if (expected_hash[i] != hash[i])
-			return -1;
-	}
-
-	return XTmrCtr_GetValue(&bench_tmr, 0);
-}

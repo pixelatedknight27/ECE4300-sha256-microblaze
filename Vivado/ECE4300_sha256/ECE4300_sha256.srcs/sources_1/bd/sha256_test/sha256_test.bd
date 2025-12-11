@@ -1286,7 +1286,7 @@
               "SEG_dlmb_bram_if_cntlr_Mem": {
                 "address_block": "/microblaze_0_local_memory/dlmb_bram_if_cntlr/SLMB/Mem",
                 "offset": "0x00000000",
-                "range": "16K",
+                "range": "128K",
                 "offset_high_param": "C_HIGHADDR"
               },
               "SEG_mdm_1_Reg": {
@@ -1306,7 +1306,7 @@
               "SEG_ilmb_bram_if_cntlr_Mem": {
                 "address_block": "/microblaze_0_local_memory/ilmb_bram_if_cntlr/SLMB/Mem",
                 "offset": "0x00000000",
-                "range": "16K",
+                "range": "128K",
                 "offset_high_param": "C_HIGHADDR"
               }
             }

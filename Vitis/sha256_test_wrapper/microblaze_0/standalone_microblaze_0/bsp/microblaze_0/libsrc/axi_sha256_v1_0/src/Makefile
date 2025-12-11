@@ -36,4 +36,4 @@ $(INCLUDEDIR)%.h: %.h
 
 clean:
 	rm -rf ${OBJECTS}
-	rm -rf $(DEPFILES)
+	rm -rf ${DEPFILES}

@@ -21,3 +21,22 @@ platform generate
 platform generate -domains 
 platform generate -domains 
 platform generate -domains standalone_microblaze_0 
+platform active {sha256_test_wrapper}
+platform generate -domains 
+platform generate -domains standalone_microblaze_0 
+platform generate
+platform generate -domains 
+platform generate -domains standalone_microblaze_0 
+platform generate -domains standalone_microblaze_0 
+platform generate
+platform generate
+platform generate
+platform generate
+platform generate -domains standalone_microblaze_0 
+platform active {sha256_test_wrapper}
+platform config -updatehw {C:/Users/maxgr/Projects/Classes/ECE4300/ECE4300-sha256-microblaze/Vivado/ECE4300_sha256/sha256_test_wrapper.xsa}
+platform generate
+bsp reload
+platform generate -domains 
+platform clean
+platform generate

@@ -1,0 +1,119 @@
+/*
+ *
+ * Xilinx, Inc.
+ * XILINX IS PROVIDING THIS DESIGN, CODE, OR INFORMATION "AS IS" AS A 
+ * COURTESY TO YOU.  BY PROVIDING THIS DESIGN, CODE, OR INFORMATION AS
+ * ONE POSSIBLE   IMPLEMENTATION OF THIS FEATURE, APPLICATION OR 
+ * STANDARD, XILINX IS MAKING NO REPRESENTATION THAT THIS IMPLEMENTATION 
+ * IS FREE FROM ANY CLAIMS OF INFRINGEMENT, AND YOU ARE RESPONSIBLE 
+ * FOR OBTAINING ANY RIGHTS YOU MAY REQUIRE FOR YOUR IMPLEMENTATION
+ * XILINX EXPRESSLY DISCLAIMS ANY WARRANTY WHATSOEVER WITH RESPECT TO 
+ * THE ADEQUACY OF THE IMPLEMENTATION, INCLUDING BUT NOT LIMITED TO 
+ * ANY WARRANTIES OR REPRESENTATIONS THAT THIS IMPLEMENTATION IS FREE 
+ * FROM CLAIMS OF INFRINGEMENT, IMPLIED WARRANTIES OF MERCHANTABILITY 
+ * AND FITNESS FOR A PARTICULAR PURPOSE.
+ */
+
+/*
+ * 
+ *
+ * This file is a generated sample test application.
+ *
+ * This application is intended to test and/or illustrate some 
+ * functionality of your system.  The contents of this file may
+ * vary depending on the IP in your system and may use existing
+ * IP driver functions.  These drivers will be generated in your
+ * SDK application project when you run the "Generate Libraries" menu item.
+ *
+ */
+
+#include <stdio.h>
+#include "xparameters.h"
+#include "xil_cache.h"
+//#include "xintc.h"
+//#include "intc_header.h"
+#include "xtmrctr.h"
+#include "tmrctr_header.h"
+#include "tmrctr_intr_header.h"
+#include "uartlite_header.h"
+#include "axi_sha256.h"
+#include "string.h"
+#include "xstatus.h"
+#include "stdlib.h"
+#include "test.h"
+
+#define TEST_DURATION_SEC 3
+#define BUFFER_SIZE (32 * 16)
+
+int main () 
+{
+   static XTmrCtr axi_timer_0_Timer;
+   Xil_ICacheEnable();
+   Xil_DCacheEnable();
+   xil_printf("---Entering main---\n\r");
+
+   printf("=========================================\n\r");
+   printf("     Microblaze SHA-256 Benchmark        \n\r");
+   printf("=========================================\n\r");
+
+   XTmrCtr_Initialize(&axi_timer_0_Timer, 0);
+   XTmrCtr_Start(&axi_timer_0_Timer, 0);
+
+   s32 duration_us = TEST_DURATION_SEC * 100000000;
+   s32 start_time = XTmrCtr_GetValue(&axi_timer_0_Timer, 0);
+   s32 end_target = start_time + duration_us;
+   s32 current_time = start_time;
+
+   uint32_t block_count = 0;
+
+   printf("Running SHA-256 on %dkB blocks for %d seconds...\n", BUFFER_SIZE/1024, TEST_DURATION_SEC);
+
+   while (current_time < end_target) {
+       benchmark();
+
+       block_count++;
+       current_time = XTmrCtr_GetValue(&axi_timer_0_Timer, 0);
+   }
+
+   // 4. Calculate Metrics
+   uint64_t actual_duration_us = current_time - start_time;
+   double actual_duration_sec = (double)actual_duration_us / 100000000.0;
+
+   // Total Bytes = blocks * 16384 bytes
+   uint64_t total_bytes = (uint64_t)block_count * BUFFER_SIZE;
+   double total_megabytes = (double)total_bytes / (1024.0 * 1024.0);
+
+   // Throughput (MB/s)
+   double throughput = total_megabytes / actual_duration_sec;
+
+   // Latency per block (milliseconds)
+   // How long did one 16KB block take on average?
+   double latency_ms = (actual_duration_sec * 1000.0) / (double)block_count;
+
+
+   // 5. Print Performance Output Table
+   printf("\nBenchmark Results:\n");
+   printf("+---------------------------+--------------------------+\n");
+   printf("| %-25s | %-24s |\n", "Metric", "Value");
+   printf("+---------------------------+--------------------------+\n");
+   printf("| %-25s | %-24s |\n", "Block Size", "64 B");
+   printf("| %-25s | %-24d |\n", "Target Duration", TEST_DURATION_SEC);
+   printf("| %-25s | %-24.4f |\n", "Actual Duration (s)", actual_duration_sec);
+   printf("| %-25s | %-24lu |\n", "Total Blocks Processed", block_count);
+   printf("| %-25s | %-24.2f |\n", "Total Data Processed (MB)", total_megabytes);
+   printf("|---------------------------+--------------------------|\n");
+   printf("| %-25s | %-24.2f |\n", "Throughput (MB/s)", throughput);
+   printf("| %-25s | %-24.4f |\n", "Latency (ms/block)", latency_ms);
+   printf("+---------------------------+--------------------------+\n");
+
+   xil_printf("---Exiting main---\n\r");
+
+   while(1){
+	   asm volatile("nop");
+   }
+
+   Xil_DCacheDisable();
+   Xil_ICacheDisable();
+   return 0;
+}
+

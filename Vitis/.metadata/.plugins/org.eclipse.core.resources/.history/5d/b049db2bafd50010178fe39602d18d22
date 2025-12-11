@@ -1,0 +1,86 @@
+/*
+ *
+ * Xilinx, Inc.
+ * XILINX IS PROVIDING THIS DESIGN, CODE, OR INFORMATION "AS IS" AS A 
+ * COURTESY TO YOU.  BY PROVIDING THIS DESIGN, CODE, OR INFORMATION AS
+ * ONE POSSIBLE   IMPLEMENTATION OF THIS FEATURE, APPLICATION OR 
+ * STANDARD, XILINX IS MAKING NO REPRESENTATION THAT THIS IMPLEMENTATION 
+ * IS FREE FROM ANY CLAIMS OF INFRINGEMENT, AND YOU ARE RESPONSIBLE 
+ * FOR OBTAINING ANY RIGHTS YOU MAY REQUIRE FOR YOUR IMPLEMENTATION
+ * XILINX EXPRESSLY DISCLAIMS ANY WARRANTY WHATSOEVER WITH RESPECT TO 
+ * THE ADEQUACY OF THE IMPLEMENTATION, INCLUDING BUT NOT LIMITED TO 
+ * ANY WARRANTIES OR REPRESENTATIONS THAT THIS IMPLEMENTATION IS FREE 
+ * FROM CLAIMS OF INFRINGEMENT, IMPLIED WARRANTIES OF MERCHANTABILITY 
+ * AND FITNESS FOR A PARTICULAR PURPOSE.
+ */
+
+/*
+ * 
+ *
+ * This file is a generated sample test application.
+ *
+ * This application is intended to test and/or illustrate some 
+ * functionality of your system.  The contents of this file may
+ * vary depending on the IP in your system and may use existing
+ * IP driver functions.  These drivers will be generated in your
+ * SDK application project when you run the "Generate Libraries" menu item.
+ *
+ */
+
+#include <stdio.h>
+#include "xparameters.h"
+#include "xil_cache.h"
+#include "xintc.h"
+#include "intc_header.h"
+#include "xtmrctr.h"
+#include "tmrctr_header.h"
+#include "tmrctr_intr_header.h"
+#include "uartlite_header.h"
+#include "axi_sha256.h"
+#include "string.h"
+#include "xstatus.h"
+#include "stdlib.h"
+#include "test.h"
+
+#define TEST_DURATION_SEC 3
+#define BUFFER_SIZE (32 * 16)
+
+XTmrCtr bench_tmr;
+
+uint32_t sha256_hw_try(uint8_t *msg, uint32_t *expected_hash);
+void fuck();
+
+int main () 
+{
+   static XTmrCtr axi_timer_0_Timer;
+   Xil_ICacheEnable();
+   Xil_DCacheEnable();
+   xil_printf("---Entering main---\n\r");
+
+   XTmrCtr_Start(&axi_timer_0_Timer, 0);
+
+   s32 duration_us = TEST_DURATION_SEC * 1000000;
+   s32 start_time = XTmrCtr_GetValue(&axi_timer_0_Timer, 0);
+   s32 end_target = start_time + duration_us;
+   s32 current_time = start_time;
+
+   uint32_t block_count = 0;
+
+   while (current_time < end_target) {
+       benchmark();
+
+       block_count++;
+       current_time = XTmrCtr_GetValue(&axi_timer_0_Timer, 0);
+   }
+
+   // 4. Calculate Metrics
+   s32 actual_duration_us = current_time - start_time;
+
+   xil_printf("Elapsed Time: %d", actual_duration_us);
+
+   xil_printf("---Exiting main---\n\r");
+   Xil_DCacheDisable();
+   Xil_ICacheDisable();
+   return 0;
+}
+

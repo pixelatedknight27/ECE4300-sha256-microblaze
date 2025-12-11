@@ -1,0 +1,127 @@
+#include <stdio.h>
+#include "xparameters.h"
+#include "xil_cache.h"
+#include "xintc.h"
+#include "intc_header.h"
+#include "xtmrctr.h"
+#include "tmrctr_header.h"
+#include "tmrctr_intr_header.h"
+#include "uartlite_header.h"
+#include "axi_sha256.h"
+#include "string.h"
+#include "xstatus.h"
+#include "stdlib.h"
+
+void fuck(){
+	sha256_reset();
+	uint32_t hash_ptr[8];
+
+	char str[3] = "abc";
+	uint32_t len = 3;
+
+	*SHA256_MSG_SIZE_L = len;
+	*SHA256_MSG_SIZE_H = 0;
+
+	// Build a 64-byte zeroed block in RAM
+	uint8_t block[64] = {0};
+	memcpy(block, str, len);
+
+	// Now push it as 16 words with the right endianness:
+	volatile uint32_t * const msg_regs = SHA256_MSG0;
+	const uint32_t *src32 = (const uint32_t *)block;
+
+	for (int i = 0; i < 16; ++i) {
+	    msg_regs[i] = src32[i];   // on a little-endian CPU with C_SHA256_BIG_ENDIAN=0
+	}
+
+	sha256_update();
+
+	while (!sha256_is_block_done());
+
+	xil_printf("block done!\r\n");
+
+	sha256_ack_block_done();
+
+	hash_ptr[0] = *SHA256_HASH0;
+	hash_ptr[1] = *SHA256_HASH1;
+	hash_ptr[2] = *SHA256_HASH2;
+	hash_ptr[3] = *SHA256_HASH3;
+	hash_ptr[4] = *SHA256_HASH4;
+	hash_ptr[5] = *SHA256_HASH5;
+	hash_ptr[6] = *SHA256_HASH6;
+	hash_ptr[7] = *SHA256_HASH7;
+
+	// acknowledge that the hash is done and to reset the module - HASHn registers don't reset
+	sha256_ack_hash_done();
+
+	xil_printf("hash done!\r\n");
+
+
+	print("Hash:\n\r");
+	for (uint32_t i = 0; i < 8; i++) {
+		xil_printf("%08X ", hash_ptr[i]);
+	}
+	print("\n\n\r");
+}
+
+void benchmark(){
+	sha256_reset();
+	uint32_t hash_ptr[8];
+
+	char str[3] = "abc";
+	uint32_t len = 64;
+
+	*SHA256_MSG_SIZE_L = len;
+	*SHA256_MSG_SIZE_H = 0;
+
+	// Build a 64-byte zeroed block in RAM
+	uint32_t block [16];
+
+	xil_printf("Input: ");
+
+	for(int i = 0; i < 16; i++){
+		block[i]= (uint32_t)rand()%26;
+	}
+
+	for(char i = 0; i < 64; i++){
+		xil_printf("%0x", block[i]);
+	}
+
+	xil_printf("\r\n");
+
+	// Now push it as 16 words with the right endianness:
+	volatile uint32_t * const msg_regs = SHA256_MSG0;
+
+	for (uint32_t i = 0; i < 16; ++i) {
+	    msg_regs[i] = block[i];   // on a little-endian CPU with C_SHA256_BIG_ENDIAN=0
+	}
+
+	sha256_update();
+
+	while (!sha256_is_block_done());
+
+	xil_printf("block done!\r\n");
+
+	sha256_ack_block_done();
+
+	hash_ptr[0] = *SHA256_HASH0;
+	hash_ptr[1] = *SHA256_HASH1;
+	hash_ptr[2] = *SHA256_HASH2;
+	hash_ptr[3] = *SHA256_HASH3;
+	hash_ptr[4] = *SHA256_HASH4;
+	hash_ptr[5] = *SHA256_HASH5;
+	hash_ptr[6] = *SHA256_HASH6;
+	hash_ptr[7] = *SHA256_HASH7;
+
+	// acknowledge that the hash is done and to reset the module - HASHn registers don't reset
+	sha256_ack_hash_done();
+
+	xil_printf("hash done!\r\n");
+
+
+	print("Hash:\n\r");
+	for (uint32_t i = 0; i < 8; i++) {
+		xil_printf("%08X ", hash_ptr[i]);
+	}
+	print("\n\n\r");
+}
